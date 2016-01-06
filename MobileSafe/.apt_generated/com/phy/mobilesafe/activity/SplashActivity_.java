@@ -4,7 +4,7 @@
 //
 
 
-package com.phy.mobilesafe.activty;
+package com.phy.mobilesafe.activity;
 
 import android.app.Activity;
 import android.content.Context;
@@ -35,7 +35,7 @@ public final class SplashActivity_
         init_(savedInstanceState);
         super.onCreate(savedInstanceState);
         OnViewChangedNotifier.replaceNotifier(previousNotifier);
-        setContentView(layout.activity_main);
+        setContentView(layout.activity_splash);
     }
 
     private void init_(Bundle savedInstanceState) {
