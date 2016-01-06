@@ -25,6 +25,7 @@ import android.os.Environment;
 import android.os.Handler;
 import android.os.Message;
 import android.util.Log;
+import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -47,6 +48,9 @@ public class SplashActivity extends Activity {
 	
 	@ViewById(R.id.text_Version)
 	public TextView tvVersion;
+	
+	@ViewById(R.id.tv_progress)
+	public TextView tvProgress; //下载进度展示
 
 	private String mVersionName; //版本名
 	protected int mVersionCode;  //版本号
@@ -243,6 +247,7 @@ public class SplashActivity extends Activity {
 		if(!Environment.getExternalStorageState().equals(Environment.MEDIA_MOUNTED)){ //判断SD卡是否存在
 			Toast.makeText(SplashActivity.this, "无SD卡", Toast.LENGTH_SHORT).show();
 		}
+		tvProgress.setVisibility(View.VISIBLE); //显示进度
 		String target = Environment.getExternalStorageDirectory()+"/update/update.apk";
 		//XUtils
 		HttpUtils utils = new HttpUtils();
@@ -254,7 +259,8 @@ public class SplashActivity extends Activity {
 			@Override
 			public void onLoading(long total, long current, boolean isUploading) {
 				super.onLoading(total, current, isUploading);
-				
+				Log.i("onLoading", "下载进度:"+current+"/"+total);
+				tvProgress.setText("下载进度:"+current*100/total+"%");
 			}
 			/**
 			 * 下载成功

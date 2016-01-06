@@ -19,7 +19,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="178dp"
+        android:layout_marginBottom="230dp"
         android:shadowColor="#fff"
         android:shadowDx="1"
         android:shadowDy="1"
@@ -27,5 +27,16 @@
         android:text="@string/version"
         android:textColor="#000000"
         android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tv_progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/text_Version"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:text="下载进度"
+        android:textColor="#f00"
+        android:textSize="16sp" />
 
 </RelativeLayout>
