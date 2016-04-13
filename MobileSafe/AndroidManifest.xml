@@ -12,7 +12,7 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@drawable/ic_launcher"
+        android:icon="@drawable/home_icon"
         android:label="@string/app_name"
         android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen" >
         <activity
@@ -31,6 +31,10 @@
         </activity>
         <activity 
             android:name=".activity.SettingActivity_"
+            android:label="@string/app_name">
+        </activity>
+         <activity 
+            android:name=".activity.LostFindActivity_"
             android:label="@string/app_name">
         </activity>
     </application>

@@ -13,28 +13,33 @@ import org.androidannotations.annotations.ViewById;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import android.app.Activity;
-import android.app.AlertDialog;
-import android.content.DialogInterface;
-import android.content.Intent;
-import android.content.DialogInterface.OnClickListener;
-import android.content.pm.PackageInfo;
-import android.content.pm.PackageManager;
-import android.content.pm.PackageManager.NameNotFoundException;
-import android.os.Environment;
-import android.os.Handler;
-import android.os.Message;
-import android.util.Log;
-import android.view.View;
-import android.widget.TextView;
-import android.widget.Toast;
-
 import com.lidroid.xutils.HttpUtils;
 import com.lidroid.xutils.exception.HttpException;
 import com.lidroid.xutils.http.ResponseInfo;
 import com.lidroid.xutils.http.callback.RequestCallBack;
 import com.phy.mobilesafe.R;
 import com.phy.mobilesafe.utils.StreamUtils;
+
+import android.app.Activity;
+import android.app.AlertDialog;
+import android.content.DialogInterface;
+import android.content.DialogInterface.OnCancelListener;
+import android.content.DialogInterface.OnClickListener;
+import android.content.Intent;
+import android.content.SharedPreferences;
+import android.content.pm.PackageInfo;
+import android.content.pm.PackageManager;
+import android.content.pm.PackageManager.NameNotFoundException;
+import android.net.Uri;
+import android.os.Environment;
+import android.os.Handler;
+import android.os.Message;
+import android.util.Log;
+import android.view.View;
+import android.view.animation.AlphaAnimation;
+import android.widget.RelativeLayout;
+import android.widget.TextView;
+import android.widget.Toast;
 @EActivity(R.layout.activity_splash)
 public class SplashActivity extends Activity {
 
@@ -51,6 +56,9 @@ public class SplashActivity extends Activity {
 	
 	@ViewById(R.id.tv_progress)
 	public TextView tvProgress; //下载进度展示
+	
+	@ViewById(R.id.rl_root)
+	public RelativeLayout rlRoot;
 
 	private String mVersionName; //版本名
 	protected int mVersionCode;  //版本号
@@ -58,6 +66,8 @@ public class SplashActivity extends Activity {
 	protected String mDesc;//版本描述
 
 	protected String mDownloadUrl; //下载地址
+	
+	private SharedPreferences mPref; //偏好选项
 	
 	private Handler mHandler = new Handler(){
 		public void handleMessage(android.os.Message msg) {
@@ -86,10 +96,24 @@ public class SplashActivity extends Activity {
 		};
 	};
 	
+	
 	@AfterViews
     void ShowAndCheckVersion() {
-		tvVersion.setText("版本号:"+getVersionName());
-		checkVersion();
+		tvVersion.setText("版本名:"+getVersionName());
+		mPref = getSharedPreferences("config", MODE_PRIVATE);
+		// 判断是否需要自动更新
+		boolean autoUpdate = mPref.getBoolean("auto_update", true);
+		if(autoUpdate){
+			
+			checkVerison();
+		}else{
+			// 延时2秒后发送消息
+			mHandler.sendEmptyMessageDelayed(CODE_ENTER_HOME, 2000);
+		}
+		//渐变动画效果
+		AlphaAnimation anim = new AlphaAnimation(0.3f, 1f);
+		anim.setDuration(2000);
+		rlRoot.startAnimation(anim);
 		}
 	
 	
@@ -138,7 +162,7 @@ public class SplashActivity extends Activity {
 	 * 从服务器获取版本信息进行校验
 	 * @return
 	 */
-	private String checkVersion(){
+	private void checkVerison(){
 		
 		final long startTime = System.currentTimeMillis();
 		
@@ -211,7 +235,6 @@ public class SplashActivity extends Activity {
 		}
 		}
 		}.start();
-		return "";
 	}
 
 	/**
@@ -233,6 +256,15 @@ public class SplashActivity extends Activity {
 			
 			@Override
 			public void onClick(DialogInterface dialog, int which) {
+				enterHome();
+			}
+		});
+		
+		// 设置取消的监听, 用户点击返回键时会触发
+		builder.setOnCancelListener(new OnCancelListener() {
+			
+			@Override
+			public void onCancel(DialogInterface dialog) {
 				enterHome();
 			}
 		});
@@ -269,7 +301,14 @@ public class SplashActivity extends Activity {
 			public void onSuccess(ResponseInfo<File> arg0) {
 				Log.i("download_success", "下载成功");
 				Toast.makeText(SplashActivity.this, "下载成功", Toast.LENGTH_SHORT).show();
-				
+				// 跳转到系统安装页面
+				Intent intent = new Intent(Intent.ACTION_VIEW);
+				intent.addCategory(Intent.CATEGORY_DEFAULT);
+				intent.setDataAndType(Uri.fromFile(arg0.result), 
+						"application/vnd.android.package-archive");
+				// 如果用户取消安装的话,
+				// 会返回结果,回调方法onActivityResult
+				startActivityForResult(intent, 0);
 			}
 			
 			@Override
@@ -279,6 +318,13 @@ public class SplashActivity extends Activity {
 		});
 	}
 
+	// 如果用户取消安装的话,回调此方法
+	@Override
+	protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+		enterHome();
+		super.onActivityResult(requestCode, resultCode, data);
+	}
+	
 
 	/**
 	 * 进入主页面

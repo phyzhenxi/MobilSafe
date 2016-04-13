@@ -14,6 +14,7 @@ import android.os.Bundle;
 import android.support.v4.app.ActivityCompat;
 import android.view.View;
 import android.view.ViewGroup.LayoutParams;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 import com.phy.mobilesafe.R.id;
 import com.phy.mobilesafe.R.layout;
@@ -74,8 +75,9 @@ public final class SplashActivity_
 
     @Override
     public void onViewChanged(HasViews hasViews) {
-        tvVersion = ((TextView) hasViews.findViewById(id.text_Version));
+        rlRoot = ((RelativeLayout) hasViews.findViewById(id.rl_root));
         tvProgress = ((TextView) hasViews.findViewById(id.tv_progress));
+        tvVersion = ((TextView) hasViews.findViewById(id.text_Version));
         ShowAndCheckVersion();
     }
 
