@@ -14,18 +14,14 @@ import android.os.Bundle;
 import android.support.v4.app.ActivityCompat;
 import android.view.View;
 import android.view.ViewGroup.LayoutParams;
-import android.widget.AdapterView;
-import android.widget.AdapterView.OnItemClickListener;
-import android.widget.GridView;
 import com.phy.mobilesafe.R.layout;
 import org.androidannotations.api.builder.ActivityIntentBuilder;
 import org.androidannotations.api.view.HasViews;
-import org.androidannotations.api.view.OnViewChangedListener;
 import org.androidannotations.api.view.OnViewChangedNotifier;
 
-public final class HomeActivity_
-    extends HomeActivity
-    implements HasViews, OnViewChangedListener
+public final class SettingActivity_
+    extends SettingActivity
+    implements HasViews
 {
 
     private final OnViewChangedNotifier onViewChangedNotifier_ = new OnViewChangedNotifier();
@@ -36,11 +32,10 @@ public final class HomeActivity_
         init_(savedInstanceState);
         super.onCreate(savedInstanceState);
         OnViewChangedNotifier.replaceNotifier(previousNotifier);
-        setContentView(layout.activity_home);
+        setContentView(layout.activity_setting);
     }
 
     private void init_(Bundle savedInstanceState) {
-        OnViewChangedNotifier.registerOnViewChangedListener(this);
     }
 
     @Override
@@ -61,54 +56,36 @@ public final class HomeActivity_
         onViewChangedNotifier_.notifyViewChanged(this);
     }
 
-    public static HomeActivity_.IntentBuilder_ intent(Context context) {
-        return new HomeActivity_.IntentBuilder_(context);
+    public static SettingActivity_.IntentBuilder_ intent(Context context) {
+        return new SettingActivity_.IntentBuilder_(context);
     }
 
-    public static HomeActivity_.IntentBuilder_ intent(android.app.Fragment fragment) {
-        return new HomeActivity_.IntentBuilder_(fragment);
+    public static SettingActivity_.IntentBuilder_ intent(android.app.Fragment fragment) {
+        return new SettingActivity_.IntentBuilder_(fragment);
     }
 
-    public static HomeActivity_.IntentBuilder_ intent(android.support.v4.app.Fragment supportFragment) {
-        return new HomeActivity_.IntentBuilder_(supportFragment);
-    }
-
-    @Override
-    public void onViewChanged(HasViews hasViews) {
-        gvHome = ((GridView) hasViews.findViewById(com.phy.mobilesafe.R.id.gv_home));
-        if (gvHome!= null) {
-            gvHome.setOnItemClickListener(new OnItemClickListener() {
-
-
-                @Override
-                public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                    HomeActivity_.this.gvHomeItemClicked(position);
-                }
-
-            }
-            );
-        }
-        updateViewWithDate();
+    public static SettingActivity_.IntentBuilder_ intent(android.support.v4.app.Fragment supportFragment) {
+        return new SettingActivity_.IntentBuilder_(supportFragment);
     }
 
     public static class IntentBuilder_
-        extends ActivityIntentBuilder<HomeActivity_.IntentBuilder_>
+        extends ActivityIntentBuilder<SettingActivity_.IntentBuilder_>
     {
 
         private android.app.Fragment fragment_;
         private android.support.v4.app.Fragment fragmentSupport_;
 
         public IntentBuilder_(Context context) {
-            super(context, HomeActivity_.class);
+            super(context, SettingActivity_.class);
         }
 
         public IntentBuilder_(android.app.Fragment fragment) {
-            super(fragment.getActivity(), HomeActivity_.class);
+            super(fragment.getActivity(), SettingActivity_.class);
             fragment_ = fragment;
         }
 
         public IntentBuilder_(android.support.v4.app.Fragment fragment) {
-            super(fragment.getActivity(), HomeActivity_.class);
+            super(fragment.getActivity(), SettingActivity_.class);
             fragmentSupport_ = fragment;
         }
 

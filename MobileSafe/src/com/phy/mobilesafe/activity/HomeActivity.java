@@ -2,9 +2,8 @@ package com.phy.mobilesafe.activity;
 
 import org.androidannotations.annotations.AfterViews;
 import org.androidannotations.annotations.EActivity;
+import org.androidannotations.annotations.ItemClick;
 import org.androidannotations.annotations.ViewById;
-import org.androidannotations.annotations.res.DrawableRes;
-import org.androidannotations.annotations.res.StringRes;
 
 import com.phy.mobilesafe.R;
 
@@ -32,8 +31,23 @@ public class HomeActivity extends Activity {
 			R.drawable.home_tools, R.drawable.home_settings};
 	@AfterViews
 	void updateViewWithDate() {
-		gvHome.setAdapter(new HomeAdapter());
+		HomeAdapter ha = new HomeAdapter();
+		gvHome.setAdapter(ha);
+		
 	}
+	
+	@ItemClick
+    public void gvHomeItemClicked(int position) {
+		switch (position) {
+		case 8:
+			
+			break;
+
+		default:
+			break;
+		}
+		
+    }
 	
 	class HomeAdapter extends BaseAdapter{
 
