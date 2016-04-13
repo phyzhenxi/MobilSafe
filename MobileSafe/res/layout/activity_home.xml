@@ -13,7 +13,7 @@
         android:text="功能列表"
         android:textColor="@color/black"
         android:textSize="22sp" />
-
+<!-- android:ellipsize 以横向滚动方式显示 -->
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -23,7 +23,7 @@
         android:focusable="true"
         android:focusableInTouchMode="true"
         android:singleLine="true"
-        android:text="有了手机卫士, 腰不酸了,腿不疼了,走路也有劲了, 手机卫士太NB了"
+        android:text="有了手机卫士, 腰不酸了,腰不酸了,腰不酸了,腰不酸了,腿不疼了,走路也有劲了, 手机卫士太NB了"
         android:textColor="@color/black"
         android:textSize="18sp" />
 

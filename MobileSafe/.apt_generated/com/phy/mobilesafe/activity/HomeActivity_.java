@@ -14,14 +14,17 @@ import android.os.Bundle;
 import android.support.v4.app.ActivityCompat;
 import android.view.View;
 import android.view.ViewGroup.LayoutParams;
+import android.widget.GridView;
+import com.phy.mobilesafe.R.id;
 import com.phy.mobilesafe.R.layout;
 import org.androidannotations.api.builder.ActivityIntentBuilder;
 import org.androidannotations.api.view.HasViews;
+import org.androidannotations.api.view.OnViewChangedListener;
 import org.androidannotations.api.view.OnViewChangedNotifier;
 
 public final class HomeActivity_
     extends HomeActivity
-    implements HasViews
+    implements HasViews, OnViewChangedListener
 {
 
     private final OnViewChangedNotifier onViewChangedNotifier_ = new OnViewChangedNotifier();
@@ -36,6 +39,7 @@ public final class HomeActivity_
     }
 
     private void init_(Bundle savedInstanceState) {
+        OnViewChangedNotifier.registerOnViewChangedListener(this);
     }
 
     @Override
@@ -66,6 +70,12 @@ public final class HomeActivity_
 
     public static HomeActivity_.IntentBuilder_ intent(android.support.v4.app.Fragment supportFragment) {
         return new HomeActivity_.IntentBuilder_(supportFragment);
+    }
+
+    @Override
+    public void onViewChanged(HasViews hasViews) {
+        gvHome = ((GridView) hasViews.findViewById(id.gv_home));
+        updateViewWithDate();
     }
 
     public static class IntentBuilder_

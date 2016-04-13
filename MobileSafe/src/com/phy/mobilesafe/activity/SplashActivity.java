@@ -152,7 +152,7 @@ public class SplashActivity extends Activity {
 				try {
 			//本机地址用Localhost，如果模拟器加载本机PC地址，需要用10.0.2.2来替换
 			//主线程超过5秒会阻塞，所以不能再主线程中访问网络信息
-			URL url = new URL("http://192.168.1.145:8080/update.json");
+			URL url = new URL("http://10.0.2.2:8080/update.json");
 			conn = (HttpURLConnection) url.openConnection();
 			conn.setRequestMethod("GET"); //设置请求方式
 			conn.setConnectTimeout(5000); //设置连接超时的时间
