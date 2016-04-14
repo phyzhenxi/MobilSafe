@@ -19,7 +19,7 @@ import android.view.View;
 import android.view.View.OnClickListener;
 
 @EActivity(R.layout.activity_setting)
-public class SettingActivity extends Activity {
+public class SettingActivity extends BaseSetupActivity {
 	@ViewById(R.id.siv_update)
 	protected SettingItemView sivUpdate;
 	
@@ -59,6 +59,17 @@ public class SettingActivity extends Activity {
 		});
 		
 		}
+
+	@Override
+	public void showNextPage() {
+		
+	}
+
+	@Override
+	public void showPreviousPage() {
+		// TODO Auto-generated method stub
+		
+	}
 	
 	
 	

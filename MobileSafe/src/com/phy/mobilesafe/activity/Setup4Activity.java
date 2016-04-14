@@ -15,7 +15,7 @@ import android.view.View;
  * @author Administrator
  */
 @EActivity(R.layout.activity_setup4)
-public class Setup4Activity extends Activity {
+public class Setup4Activity extends BaseSetupActivity {
 	
 	private SharedPreferences mPref;
 	
@@ -24,9 +24,10 @@ public class Setup4Activity extends Activity {
 		mPref = getSharedPreferences("config", MODE_PRIVATE);
 	}
 	
-	//下一页
-			public void next(View v){
-				startActivity(new Intent(this,LostFindActivity.class));
+			//下一页
+			@Override
+			public void showNextPage() {
+				startActivity(new Intent(this,LostFindActivity_.class));
 				finish();
 				//两个界面切换的动画,设置进入动画和退出动画
 				overridePendingTransition(R.anim.tran_in, R.anim.tran_out);
@@ -34,9 +35,9 @@ public class Setup4Activity extends Activity {
 				mPref.edit().putBoolean("configed", true).commit();
 				
 			}
-			
-		//上一页
-			public void previous(View v){
+			//上一页
+			@Override
+			public void showPreviousPage() {
 				startActivity(new Intent(this,Setup3Activity_.class));
 				finish();
 				//两个界面切换的动画,设置进入动画和退出动画

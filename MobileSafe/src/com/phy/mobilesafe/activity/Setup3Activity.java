@@ -13,17 +13,18 @@ import android.view.View;
  * @author phy
  */
 @EActivity(R.layout.activity_setup3)
-public class Setup3Activity extends Activity {
+public class Setup3Activity extends BaseSetupActivity {
 	//下一页
-			public void next(View v){
+			@Override
+			public void showNextPage() {
 				startActivity(new Intent(this,Setup4Activity_.class));
 				finish();
 				//两个界面切换的动画,设置进入动画和退出动画
 				overridePendingTransition(R.anim.tran_in, R.anim.tran_out);
 			}
-			
-		//上一页
-			public void previous(View v){
+			//上一页
+			@Override
+			public void showPreviousPage() {
 				startActivity(new Intent(this,Setup2Activity_.class));
 				finish();
 				//两个界面切换的动画,设置进入动画和退出动画

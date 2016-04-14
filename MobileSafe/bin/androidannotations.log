@@ -3728,3 +3728,815 @@
 11:49:07.725 [Worker-54] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.phy.mobilesafe.activity.Setup4Activity_
 11:49:07.727 [Worker-54] INFO  o.a.p.TimeStats:81 - Time measurements: [Whole Processing = 62 ms], [Find R Classes = 33 ms], [Process Annotations = 18 ms], [Extract Manifest = 3 ms], [Generate Sources = 3 ms], [Validate Annotations = 2 ms], [Extract Annotations = 0 ms], 
 11:49:07.727 [Worker-54] INFO  o.a.AndroidAnnotationProcessor:121 - Finish processing
+15:03:36.374 [Worker-80] INFO  o.a.AndroidAnnotationProcessor:83 - Initialize AndroidAnnotations 3.3.2 with options {phase=BUILD}
+15:03:39.183 [Worker-83] INFO  o.a.AndroidAnnotationProcessor:83 - Initialize AndroidAnnotations 3.3.2 with options {phase=BUILD}
+15:04:05.772 [Worker-65] INFO  o.a.AndroidAnnotationProcessor:83 - Initialize AndroidAnnotations 3.3.2 with options {phase=BUILD}
+15:05:09.839 [Worker-82] INFO  o.a.AndroidAnnotationProcessor:83 - Initialize AndroidAnnotations 3.3.2 with options {phase=BUILD}
+15:05:13.785 [Worker-83] INFO  o.a.AndroidAnnotationProcessor:83 - Initialize AndroidAnnotations 3.3.2 with options {phase=BUILD}
+15:05:28.812 [Worker-86] INFO  o.a.AndroidAnnotationProcessor:83 - Initialize AndroidAnnotations 3.3.2 with options {phase=BUILD}
+15:05:52.763 [Worker-84] INFO  o.a.AndroidAnnotationProcessor:83 - Initialize AndroidAnnotations 3.3.2 with options {phase=BUILD}
+15:08:09.221 [Worker-87] INFO  o.a.AndroidAnnotationProcessor:83 - Initialize AndroidAnnotations 3.3.2 with options {phase=BUILD}
+15:08:23.544 [Worker-65] INFO  o.a.AndroidAnnotationProcessor:83 - Initialize AndroidAnnotations 3.3.2 with options {phase=BUILD}
+15:09:52.418 [Worker-80] INFO  o.a.AndroidAnnotationProcessor:83 - Initialize AndroidAnnotations 3.3.2 with options {phase=BUILD}
+15:12:40.860 [Worker-65] INFO  o.a.AndroidAnnotationProcessor:83 - Initialize AndroidAnnotations 3.3.2 with options {phase=BUILD}
+15:12:51.515 [Worker-65] INFO  o.a.AndroidAnnotationProcessor:83 - Initialize AndroidAnnotations 3.3.2 with options {phase=BUILD}
+15:13:23.745 [Worker-90] INFO  o.a.AndroidAnnotationProcessor:83 - Initialize AndroidAnnotations 3.3.2 with options {phase=BUILD}
+15:13:26.669 [Worker-65] INFO  o.a.AndroidAnnotationProcessor:83 - Initialize AndroidAnnotations 3.3.2 with options {phase=BUILD}
+15:14:44.81 [Worker-88] INFO  o.a.AndroidAnnotationProcessor:83 - Initialize AndroidAnnotations 3.3.2 with options {phase=BUILD}
+15:15:02.210 [Worker-95] INFO  o.a.AndroidAnnotationProcessor:83 - Initialize AndroidAnnotations 3.3.2 with options {phase=BUILD}
+15:26:18.37 [Worker-90] INFO  o.a.AndroidAnnotationProcessor:83 - Initialize AndroidAnnotations 3.3.2 with options {phase=BUILD}
+15:26:26.192 [Worker-99] INFO  o.a.AndroidAnnotationProcessor:83 - Initialize AndroidAnnotations 3.3.2 with options {phase=BUILD}
+15:26:57.636 [Worker-99] INFO  o.a.AndroidAnnotationProcessor:83 - Initialize AndroidAnnotations 3.3.2 with options {phase=BUILD}
+15:27:02.363 [Worker-97] INFO  o.a.AndroidAnnotationProcessor:83 - Initialize AndroidAnnotations 3.3.2 with options {phase=BUILD}
+15:27:15.956 [Worker-90] INFO  o.a.AndroidAnnotationProcessor:83 - Initialize AndroidAnnotations 3.3.2 with options {phase=BUILD}
+15:27:37.664 [Worker-90] INFO  o.a.AndroidAnnotationProcessor:83 - Initialize AndroidAnnotations 3.3.2 with options {phase=BUILD}
+15:28:07.68 [Worker-99] INFO  o.a.AndroidAnnotationProcessor:83 - Initialize AndroidAnnotations 3.3.2 with options {phase=BUILD}
+15:28:08.232 [Worker-94] INFO  o.a.AndroidAnnotationProcessor:83 - Initialize AndroidAnnotations 3.3.2 with options {phase=BUILD}
+15:28:22.245 [Worker-101] INFO  o.a.AndroidAnnotationProcessor:83 - Initialize AndroidAnnotations 3.3.2 with options {phase=BUILD}
+15:28:26.375 [Worker-98] INFO  o.a.AndroidAnnotationProcessor:83 - Initialize AndroidAnnotations 3.3.2 with options {phase=BUILD}
+15:28:35.614 [Worker-97] INFO  o.a.AndroidAnnotationProcessor:83 - Initialize AndroidAnnotations 3.3.2 with options {phase=BUILD}
+15:28:46.210 [Worker-103] INFO  o.a.AndroidAnnotationProcessor:83 - Initialize AndroidAnnotations 3.3.2 with options {phase=BUILD}
+15:29:14.689 [Worker-98] INFO  o.a.AndroidAnnotationProcessor:83 - Initialize AndroidAnnotations 3.3.2 with options {phase=BUILD}
+15:31:44.351 [Worker-94] INFO  o.a.AndroidAnnotationProcessor:83 - Initialize AndroidAnnotations 3.3.2 with options {phase=BUILD}
+15:31:44.353 [Worker-94] INFO  o.a.AndroidAnnotationProcessor:107 - Start processing for 1 annotations on 1 elements
+15:31:44.355 [Worker-94] DEBUG o.a.h.AndroidManifestFinder:137 - AndroidManifest.xml file found in parent folder E:\month_workspace\MobilSafe\MobileSafe: E:\month_workspace\MobilSafe\MobileSafe\AndroidManifest.xml
+15:31:44.385 [Worker-94] INFO  o.a.AndroidAnnotationProcessor:170 - AndroidManifest.xml found: AndroidManifest [applicationPackage=com.phy.mobilesafe, componentQualifiedNames=[com.phy.mobilesafe.activity.SplashActivity_, com.phy.mobilesafe.activity.HomeActivity_, com.phy.mobilesafe.activity.SettingActivity_, com.phy.mobilesafe.activity.LostFindActivity, com.phy.mobilesafe.activity.Setup1Activity_, com.phy.mobilesafe.activity.Setup2Activity_, com.phy.mobilesafe.activity.Setup3Activity_, com.phy.mobilesafe.activity.Setup4Activity_], permissionQualifiedNames=[android.permission.INTERNET, android.permission.WRITE_EXTERNAL_STORAGE], applicationClassName=null, libraryProject=false, debugabble=false, minSdkVersion=14, maxSdkVersion=-1, targetSdkVersion=17]
+15:31:44.385 [Worker-94] INFO  o.a.r.ProjectRClassFinder:50 - Found project R class: com.phy.mobilesafe.R
+15:31:44.402 [Worker-94] INFO  o.a.r.AndroidRClassFinder:44 - Found Android class: android.R
+15:31:44.468 [Worker-94] INFO  o.a.p.ModelValidator:42 - Validating elements
+15:31:44.469 [Worker-94] DEBUG o.a.p.ModelValidator:62 - Validating with EActivityHandler: [com.phy.mobilesafe.activity.Setup1Activity]
+15:31:44.470 [Worker-94] INFO  o.a.p.ModelProcessor:74 - Processing root elements
+15:31:44.470 [Worker-94] DEBUG o.a.p.ModelProcessor:176 - Processing root elements EActivityHandler: [com.phy.mobilesafe.activity.Setup1Activity]
+15:31:44.519 [Worker-94] INFO  o.a.p.ModelProcessor:86 - Processing enclosed elements
+15:31:44.519 [Worker-94] INFO  o.a.AndroidAnnotationProcessor:249 - Number of files generated by AndroidAnnotations: 1
+15:31:44.520 [Worker-94] INFO  o.a.g.ApiCodeGenerator:52 - Writting following API classes in project: []
+15:31:44.520 [Worker-94] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.phy.mobilesafe.activity.Setup1Activity_
+15:31:44.539 [Worker-94] INFO  o.a.p.TimeStats:81 - Time measurements: [Whole Processing = 186 ms], [Find R Classes = 83 ms], [Process Annotations = 49 ms], [Extract Manifest = 30 ms], [Generate Sources = 20 ms], [Validate Annotations = 2 ms], [Extract Annotations = 1 ms], 
+15:31:44.540 [Worker-94] INFO  o.a.AndroidAnnotationProcessor:121 - Finish processing
+15:31:57.621 [Worker-94] INFO  o.a.AndroidAnnotationProcessor:83 - Initialize AndroidAnnotations 3.3.2 with options {phase=BUILD}
+15:31:57.622 [Worker-94] INFO  o.a.AndroidAnnotationProcessor:107 - Start processing for 1 annotations on 2 elements
+15:31:57.624 [Worker-94] DEBUG o.a.h.AndroidManifestFinder:137 - AndroidManifest.xml file found in parent folder E:\month_workspace\MobilSafe\MobileSafe: E:\month_workspace\MobilSafe\MobileSafe\AndroidManifest.xml
+15:31:57.627 [Worker-94] INFO  o.a.AndroidAnnotationProcessor:170 - AndroidManifest.xml found: AndroidManifest [applicationPackage=com.phy.mobilesafe, componentQualifiedNames=[com.phy.mobilesafe.activity.SplashActivity_, com.phy.mobilesafe.activity.HomeActivity_, com.phy.mobilesafe.activity.SettingActivity_, com.phy.mobilesafe.activity.LostFindActivity, com.phy.mobilesafe.activity.Setup1Activity_, com.phy.mobilesafe.activity.Setup2Activity_, com.phy.mobilesafe.activity.Setup3Activity_, com.phy.mobilesafe.activity.Setup4Activity_], permissionQualifiedNames=[android.permission.INTERNET, android.permission.WRITE_EXTERNAL_STORAGE], applicationClassName=null, libraryProject=false, debugabble=false, minSdkVersion=14, maxSdkVersion=-1, targetSdkVersion=17]
+15:31:57.628 [Worker-94] INFO  o.a.r.ProjectRClassFinder:50 - Found project R class: com.phy.mobilesafe.R
+15:31:57.630 [Worker-94] INFO  o.a.r.AndroidRClassFinder:44 - Found Android class: android.R
+15:31:57.660 [Worker-94] INFO  o.a.p.ModelValidator:42 - Validating elements
+15:31:57.661 [Worker-94] DEBUG o.a.p.ModelValidator:62 - Validating with EActivityHandler: [com.phy.mobilesafe.activity.Setup1Activity]
+15:31:57.661 [Worker-94] INFO  o.a.p.ModelProcessor:74 - Processing root elements
+15:31:57.662 [Worker-94] DEBUG o.a.p.ModelProcessor:176 - Processing root elements EActivityHandler: [com.phy.mobilesafe.activity.Setup1Activity]
+15:31:57.678 [Worker-94] INFO  o.a.p.ModelProcessor:86 - Processing enclosed elements
+15:31:57.679 [Worker-94] INFO  o.a.AndroidAnnotationProcessor:249 - Number of files generated by AndroidAnnotations: 1
+15:31:57.679 [Worker-94] INFO  o.a.g.ApiCodeGenerator:52 - Writting following API classes in project: []
+15:31:57.680 [Worker-94] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.phy.mobilesafe.activity.Setup1Activity_
+15:31:57.684 [Worker-94] INFO  o.a.p.TimeStats:81 - Time measurements: [Whole Processing = 62 ms], [Find R Classes = 32 ms], [Process Annotations = 18 ms], [Generate Sources = 5 ms], [Extract Manifest = 3 ms], [Extract Annotations = 1 ms], [Validate Annotations = 1 ms], 
+15:31:57.685 [Worker-94] INFO  o.a.AndroidAnnotationProcessor:121 - Finish processing
+15:32:10.489 [Worker-90] INFO  o.a.AndroidAnnotationProcessor:83 - Initialize AndroidAnnotations 3.3.2 with options {phase=BUILD}
+15:32:10.491 [Worker-90] INFO  o.a.AndroidAnnotationProcessor:107 - Start processing for 1 annotations on 1 elements
+15:32:10.493 [Worker-90] DEBUG o.a.h.AndroidManifestFinder:137 - AndroidManifest.xml file found in parent folder E:\month_workspace\MobilSafe\MobileSafe: E:\month_workspace\MobilSafe\MobileSafe\AndroidManifest.xml
+15:32:10.496 [Worker-90] INFO  o.a.AndroidAnnotationProcessor:170 - AndroidManifest.xml found: AndroidManifest [applicationPackage=com.phy.mobilesafe, componentQualifiedNames=[com.phy.mobilesafe.activity.SplashActivity_, com.phy.mobilesafe.activity.HomeActivity_, com.phy.mobilesafe.activity.SettingActivity_, com.phy.mobilesafe.activity.LostFindActivity, com.phy.mobilesafe.activity.Setup1Activity_, com.phy.mobilesafe.activity.Setup2Activity_, com.phy.mobilesafe.activity.Setup3Activity_, com.phy.mobilesafe.activity.Setup4Activity_], permissionQualifiedNames=[android.permission.INTERNET, android.permission.WRITE_EXTERNAL_STORAGE], applicationClassName=null, libraryProject=false, debugabble=false, minSdkVersion=14, maxSdkVersion=-1, targetSdkVersion=17]
+15:32:10.497 [Worker-90] INFO  o.a.r.ProjectRClassFinder:50 - Found project R class: com.phy.mobilesafe.R
+15:32:10.500 [Worker-90] INFO  o.a.r.AndroidRClassFinder:44 - Found Android class: android.R
+15:32:10.530 [Worker-90] INFO  o.a.p.ModelValidator:42 - Validating elements
+15:32:10.531 [Worker-90] DEBUG o.a.p.ModelValidator:62 - Validating with EActivityHandler: [com.phy.mobilesafe.activity.Setup2Activity]
+15:32:10.532 [Worker-90] INFO  o.a.p.ModelProcessor:74 - Processing root elements
+15:32:10.532 [Worker-90] DEBUG o.a.p.ModelProcessor:176 - Processing root elements EActivityHandler: [com.phy.mobilesafe.activity.Setup2Activity]
+15:32:10.547 [Worker-90] INFO  o.a.p.ModelProcessor:86 - Processing enclosed elements
+15:32:10.548 [Worker-90] INFO  o.a.AndroidAnnotationProcessor:249 - Number of files generated by AndroidAnnotations: 1
+15:32:10.549 [Worker-90] INFO  o.a.g.ApiCodeGenerator:52 - Writting following API classes in project: []
+15:32:10.549 [Worker-90] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.phy.mobilesafe.activity.Setup2Activity_
+15:32:10.569 [Worker-90] INFO  o.a.p.TimeStats:81 - Time measurements: [Whole Processing = 78 ms], [Find R Classes = 33 ms], [Generate Sources = 21 ms], [Process Annotations = 17 ms], [Extract Manifest = 3 ms], [Extract Annotations = 1 ms], [Validate Annotations = 1 ms], 
+15:32:10.569 [Worker-90] INFO  o.a.AndroidAnnotationProcessor:121 - Finish processing
+15:33:05.898 [Worker-101] INFO  o.a.AndroidAnnotationProcessor:83 - Initialize AndroidAnnotations 3.3.2 with options {phase=BUILD}
+15:33:05.901 [Worker-101] INFO  o.a.AndroidAnnotationProcessor:107 - Start processing for 3 annotations on 1 elements
+15:33:05.903 [Worker-101] DEBUG o.a.h.AndroidManifestFinder:137 - AndroidManifest.xml file found in parent folder E:\month_workspace\MobilSafe\MobileSafe: E:\month_workspace\MobilSafe\MobileSafe\AndroidManifest.xml
+15:33:05.906 [Worker-101] INFO  o.a.AndroidAnnotationProcessor:170 - AndroidManifest.xml found: AndroidManifest [applicationPackage=com.phy.mobilesafe, componentQualifiedNames=[com.phy.mobilesafe.activity.SplashActivity_, com.phy.mobilesafe.activity.HomeActivity_, com.phy.mobilesafe.activity.SettingActivity_, com.phy.mobilesafe.activity.LostFindActivity, com.phy.mobilesafe.activity.Setup1Activity_, com.phy.mobilesafe.activity.Setup2Activity_, com.phy.mobilesafe.activity.Setup3Activity_, com.phy.mobilesafe.activity.Setup4Activity_], permissionQualifiedNames=[android.permission.INTERNET, android.permission.WRITE_EXTERNAL_STORAGE], applicationClassName=null, libraryProject=false, debugabble=false, minSdkVersion=14, maxSdkVersion=-1, targetSdkVersion=17]
+15:33:05.906 [Worker-101] INFO  o.a.r.ProjectRClassFinder:50 - Found project R class: com.phy.mobilesafe.R
+15:33:05.910 [Worker-101] INFO  o.a.r.AndroidRClassFinder:44 - Found Android class: android.R
+15:33:05.939 [Worker-101] INFO  o.a.p.ModelValidator:42 - Validating elements
+15:33:05.940 [Worker-101] DEBUG o.a.p.ModelValidator:62 - Validating with EActivityHandler: [com.phy.mobilesafe.activity.SettingActivity]
+15:33:05.941 [Worker-101] DEBUG o.a.p.ModelValidator:62 - Validating with ViewByIdHandler: [sivUpdate]
+15:33:05.942 [Worker-101] DEBUG o.a.p.ModelValidator:62 - Validating with AfterViewsHandler: [void GetAndSetSharedPreferences() ]
+15:33:05.943 [Worker-101] INFO  o.a.p.ModelProcessor:74 - Processing root elements
+15:33:05.944 [Worker-101] DEBUG o.a.p.ModelProcessor:176 - Processing root elements EActivityHandler: [com.phy.mobilesafe.activity.SettingActivity]
+15:33:05.959 [Worker-101] INFO  o.a.p.ModelProcessor:86 - Processing enclosed elements
+15:33:05.959 [Worker-101] INFO  o.a.AndroidAnnotationProcessor:249 - Number of files generated by AndroidAnnotations: 1
+15:33:05.960 [Worker-101] INFO  o.a.g.ApiCodeGenerator:52 - Writting following API classes in project: []
+15:33:05.960 [Worker-101] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.phy.mobilesafe.activity.SettingActivity_
+15:33:05.971 [Worker-101] INFO  o.a.p.TimeStats:81 - Time measurements: [Whole Processing = 70 ms], [Find R Classes = 33 ms], [Process Annotations = 16 ms], [Generate Sources = 12 ms], [Extract Manifest = 4 ms], [Validate Annotations = 4 ms], [Extract Annotations = 1 ms], 
+15:33:05.972 [Worker-101] INFO  o.a.AndroidAnnotationProcessor:121 - Finish processing
+15:33:45.469 [Worker-105] INFO  o.a.AndroidAnnotationProcessor:83 - Initialize AndroidAnnotations 3.3.2 with options {phase=BUILD}
+15:33:45.472 [Worker-105] INFO  o.a.AndroidAnnotationProcessor:107 - Start processing for 1 annotations on 2 elements
+15:33:45.475 [Worker-105] DEBUG o.a.h.AndroidManifestFinder:137 - AndroidManifest.xml file found in parent folder E:\month_workspace\MobilSafe\MobileSafe: E:\month_workspace\MobilSafe\MobileSafe\AndroidManifest.xml
+15:33:45.478 [Worker-105] INFO  o.a.AndroidAnnotationProcessor:170 - AndroidManifest.xml found: AndroidManifest [applicationPackage=com.phy.mobilesafe, componentQualifiedNames=[com.phy.mobilesafe.activity.SplashActivity_, com.phy.mobilesafe.activity.HomeActivity_, com.phy.mobilesafe.activity.SettingActivity_, com.phy.mobilesafe.activity.LostFindActivity, com.phy.mobilesafe.activity.Setup1Activity_, com.phy.mobilesafe.activity.Setup2Activity_, com.phy.mobilesafe.activity.Setup3Activity_, com.phy.mobilesafe.activity.Setup4Activity_], permissionQualifiedNames=[android.permission.INTERNET, android.permission.WRITE_EXTERNAL_STORAGE], applicationClassName=null, libraryProject=false, debugabble=false, minSdkVersion=14, maxSdkVersion=-1, targetSdkVersion=17]
+15:33:45.479 [Worker-105] INFO  o.a.r.ProjectRClassFinder:50 - Found project R class: com.phy.mobilesafe.R
+15:33:45.481 [Worker-105] INFO  o.a.r.AndroidRClassFinder:44 - Found Android class: android.R
+15:33:45.515 [Worker-105] INFO  o.a.p.ModelValidator:42 - Validating elements
+15:33:45.516 [Worker-105] DEBUG o.a.p.ModelValidator:62 - Validating with EActivityHandler: [com.phy.mobilesafe.activity.Setup2Activity]
+15:33:45.517 [Worker-105] INFO  o.a.p.ModelProcessor:74 - Processing root elements
+15:33:45.517 [Worker-105] DEBUG o.a.p.ModelProcessor:176 - Processing root elements EActivityHandler: [com.phy.mobilesafe.activity.Setup2Activity]
+15:33:45.531 [Worker-105] INFO  o.a.p.ModelProcessor:86 - Processing enclosed elements
+15:33:45.531 [Worker-105] INFO  o.a.AndroidAnnotationProcessor:249 - Number of files generated by AndroidAnnotations: 1
+15:33:45.532 [Worker-105] INFO  o.a.g.ApiCodeGenerator:52 - Writting following API classes in project: []
+15:33:45.532 [Worker-105] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.phy.mobilesafe.activity.Setup2Activity_
+15:33:45.537 [Worker-105] INFO  o.a.p.TimeStats:81 - Time measurements: [Whole Processing = 65 ms], [Find R Classes = 36 ms], [Process Annotations = 14 ms], [Generate Sources = 6 ms], [Extract Manifest = 3 ms], [Extract Annotations = 2 ms], [Validate Annotations = 2 ms], 
+15:33:45.537 [Worker-105] INFO  o.a.AndroidAnnotationProcessor:121 - Finish processing
+15:34:07.889 [Worker-94] INFO  o.a.AndroidAnnotationProcessor:83 - Initialize AndroidAnnotations 3.3.2 with options {phase=BUILD}
+15:34:07.890 [Worker-94] INFO  o.a.AndroidAnnotationProcessor:107 - Start processing for 1 annotations on 1 elements
+15:34:07.893 [Worker-94] DEBUG o.a.h.AndroidManifestFinder:137 - AndroidManifest.xml file found in parent folder E:\month_workspace\MobilSafe\MobileSafe: E:\month_workspace\MobilSafe\MobileSafe\AndroidManifest.xml
+15:34:07.897 [Worker-94] INFO  o.a.AndroidAnnotationProcessor:170 - AndroidManifest.xml found: AndroidManifest [applicationPackage=com.phy.mobilesafe, componentQualifiedNames=[com.phy.mobilesafe.activity.SplashActivity_, com.phy.mobilesafe.activity.HomeActivity_, com.phy.mobilesafe.activity.SettingActivity_, com.phy.mobilesafe.activity.LostFindActivity, com.phy.mobilesafe.activity.Setup1Activity_, com.phy.mobilesafe.activity.Setup2Activity_, com.phy.mobilesafe.activity.Setup3Activity_, com.phy.mobilesafe.activity.Setup4Activity_], permissionQualifiedNames=[android.permission.INTERNET, android.permission.WRITE_EXTERNAL_STORAGE], applicationClassName=null, libraryProject=false, debugabble=false, minSdkVersion=14, maxSdkVersion=-1, targetSdkVersion=17]
+15:34:07.897 [Worker-94] INFO  o.a.r.ProjectRClassFinder:50 - Found project R class: com.phy.mobilesafe.R
+15:34:07.901 [Worker-94] INFO  o.a.r.AndroidRClassFinder:44 - Found Android class: android.R
+15:34:07.930 [Worker-94] INFO  o.a.p.ModelValidator:42 - Validating elements
+15:34:07.930 [Worker-94] DEBUG o.a.p.ModelValidator:62 - Validating with EActivityHandler: [com.phy.mobilesafe.activity.Setup1Activity]
+15:34:07.931 [Worker-94] INFO  o.a.p.ModelProcessor:74 - Processing root elements
+15:34:07.931 [Worker-94] DEBUG o.a.p.ModelProcessor:176 - Processing root elements EActivityHandler: [com.phy.mobilesafe.activity.Setup1Activity]
+15:34:07.946 [Worker-94] INFO  o.a.p.ModelProcessor:86 - Processing enclosed elements
+15:34:07.947 [Worker-94] INFO  o.a.AndroidAnnotationProcessor:249 - Number of files generated by AndroidAnnotations: 1
+15:34:07.947 [Worker-94] INFO  o.a.g.ApiCodeGenerator:52 - Writting following API classes in project: []
+15:34:07.947 [Worker-94] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.phy.mobilesafe.activity.Setup1Activity_
+15:34:07.951 [Worker-94] INFO  o.a.p.TimeStats:81 - Time measurements: [Whole Processing = 61 ms], [Find R Classes = 33 ms], [Process Annotations = 16 ms], [Extract Manifest = 4 ms], [Generate Sources = 4 ms], [Extract Annotations = 2 ms], [Validate Annotations = 1 ms], 
+15:34:07.952 [Worker-94] INFO  o.a.AndroidAnnotationProcessor:121 - Finish processing
+15:34:15.919 [Worker-107] INFO  o.a.AndroidAnnotationProcessor:83 - Initialize AndroidAnnotations 3.3.2 with options {phase=BUILD}
+15:34:15.921 [Worker-107] INFO  o.a.AndroidAnnotationProcessor:107 - Start processing for 1 annotations on 1 elements
+15:34:15.923 [Worker-107] DEBUG o.a.h.AndroidManifestFinder:137 - AndroidManifest.xml file found in parent folder E:\month_workspace\MobilSafe\MobileSafe: E:\month_workspace\MobilSafe\MobileSafe\AndroidManifest.xml
+15:34:15.927 [Worker-107] INFO  o.a.AndroidAnnotationProcessor:170 - AndroidManifest.xml found: AndroidManifest [applicationPackage=com.phy.mobilesafe, componentQualifiedNames=[com.phy.mobilesafe.activity.SplashActivity_, com.phy.mobilesafe.activity.HomeActivity_, com.phy.mobilesafe.activity.SettingActivity_, com.phy.mobilesafe.activity.LostFindActivity, com.phy.mobilesafe.activity.Setup1Activity_, com.phy.mobilesafe.activity.Setup2Activity_, com.phy.mobilesafe.activity.Setup3Activity_, com.phy.mobilesafe.activity.Setup4Activity_], permissionQualifiedNames=[android.permission.INTERNET, android.permission.WRITE_EXTERNAL_STORAGE], applicationClassName=null, libraryProject=false, debugabble=false, minSdkVersion=14, maxSdkVersion=-1, targetSdkVersion=17]
+15:34:15.928 [Worker-107] INFO  o.a.r.ProjectRClassFinder:50 - Found project R class: com.phy.mobilesafe.R
+15:34:15.932 [Worker-107] INFO  o.a.r.AndroidRClassFinder:44 - Found Android class: android.R
+15:34:15.961 [Worker-107] INFO  o.a.p.ModelValidator:42 - Validating elements
+15:34:15.962 [Worker-107] DEBUG o.a.p.ModelValidator:62 - Validating with EActivityHandler: [com.phy.mobilesafe.activity.Setup2Activity]
+15:34:15.963 [Worker-107] INFO  o.a.p.ModelProcessor:74 - Processing root elements
+15:34:15.963 [Worker-107] DEBUG o.a.p.ModelProcessor:176 - Processing root elements EActivityHandler: [com.phy.mobilesafe.activity.Setup2Activity]
+15:34:15.978 [Worker-107] INFO  o.a.p.ModelProcessor:86 - Processing enclosed elements
+15:34:15.979 [Worker-107] INFO  o.a.AndroidAnnotationProcessor:249 - Number of files generated by AndroidAnnotations: 1
+15:34:15.979 [Worker-107] INFO  o.a.g.ApiCodeGenerator:52 - Writting following API classes in project: []
+15:34:15.980 [Worker-107] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.phy.mobilesafe.activity.Setup2Activity_
+15:34:15.982 [Worker-107] INFO  o.a.p.TimeStats:81 - Time measurements: [Whole Processing = 60 ms], [Find R Classes = 33 ms], [Process Annotations = 17 ms], [Extract Manifest = 4 ms], [Generate Sources = 2 ms], [Extract Annotations = 1 ms], [Validate Annotations = 1 ms], 
+15:34:15.982 [Worker-107] INFO  o.a.AndroidAnnotationProcessor:121 - Finish processing
+15:34:24.376 [Worker-94] INFO  o.a.AndroidAnnotationProcessor:83 - Initialize AndroidAnnotations 3.3.2 with options {phase=BUILD}
+15:34:24.378 [Worker-94] INFO  o.a.AndroidAnnotationProcessor:107 - Start processing for 1 annotations on 1 elements
+15:34:24.380 [Worker-94] DEBUG o.a.h.AndroidManifestFinder:137 - AndroidManifest.xml file found in parent folder E:\month_workspace\MobilSafe\MobileSafe: E:\month_workspace\MobilSafe\MobileSafe\AndroidManifest.xml
+15:34:24.382 [Worker-94] INFO  o.a.AndroidAnnotationProcessor:170 - AndroidManifest.xml found: AndroidManifest [applicationPackage=com.phy.mobilesafe, componentQualifiedNames=[com.phy.mobilesafe.activity.SplashActivity_, com.phy.mobilesafe.activity.HomeActivity_, com.phy.mobilesafe.activity.SettingActivity_, com.phy.mobilesafe.activity.LostFindActivity, com.phy.mobilesafe.activity.Setup1Activity_, com.phy.mobilesafe.activity.Setup2Activity_, com.phy.mobilesafe.activity.Setup3Activity_, com.phy.mobilesafe.activity.Setup4Activity_], permissionQualifiedNames=[android.permission.INTERNET, android.permission.WRITE_EXTERNAL_STORAGE], applicationClassName=null, libraryProject=false, debugabble=false, minSdkVersion=14, maxSdkVersion=-1, targetSdkVersion=17]
+15:34:24.383 [Worker-94] INFO  o.a.r.ProjectRClassFinder:50 - Found project R class: com.phy.mobilesafe.R
+15:34:24.386 [Worker-94] INFO  o.a.r.AndroidRClassFinder:44 - Found Android class: android.R
+15:34:24.414 [Worker-94] INFO  o.a.p.ModelValidator:42 - Validating elements
+15:34:24.415 [Worker-94] DEBUG o.a.p.ModelValidator:62 - Validating with EActivityHandler: [com.phy.mobilesafe.activity.Setup2Activity]
+15:34:24.416 [Worker-94] INFO  o.a.p.ModelProcessor:74 - Processing root elements
+15:34:24.416 [Worker-94] DEBUG o.a.p.ModelProcessor:176 - Processing root elements EActivityHandler: [com.phy.mobilesafe.activity.Setup2Activity]
+15:34:24.432 [Worker-94] INFO  o.a.p.ModelProcessor:86 - Processing enclosed elements
+15:34:24.433 [Worker-94] INFO  o.a.AndroidAnnotationProcessor:249 - Number of files generated by AndroidAnnotations: 1
+15:34:24.433 [Worker-94] INFO  o.a.g.ApiCodeGenerator:52 - Writting following API classes in project: []
+15:34:24.434 [Worker-94] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.phy.mobilesafe.activity.Setup2Activity_
+15:34:24.436 [Worker-94] INFO  o.a.p.TimeStats:81 - Time measurements: [Whole Processing = 58 ms], [Find R Classes = 31 ms], [Process Annotations = 17 ms], [Extract Manifest = 3 ms], [Generate Sources = 3 ms], [Validate Annotations = 2 ms], [Extract Annotations = 1 ms], 
+15:34:24.436 [Worker-94] INFO  o.a.AndroidAnnotationProcessor:121 - Finish processing
+15:34:54.763 [Worker-94] INFO  o.a.AndroidAnnotationProcessor:83 - Initialize AndroidAnnotations 3.3.2 with options {phase=BUILD}
+15:34:54.765 [Worker-94] INFO  o.a.AndroidAnnotationProcessor:107 - Start processing for 1 annotations on 1 elements
+15:34:54.767 [Worker-94] DEBUG o.a.h.AndroidManifestFinder:137 - AndroidManifest.xml file found in parent folder E:\month_workspace\MobilSafe\MobileSafe: E:\month_workspace\MobilSafe\MobileSafe\AndroidManifest.xml
+15:34:54.770 [Worker-94] INFO  o.a.AndroidAnnotationProcessor:170 - AndroidManifest.xml found: AndroidManifest [applicationPackage=com.phy.mobilesafe, componentQualifiedNames=[com.phy.mobilesafe.activity.SplashActivity_, com.phy.mobilesafe.activity.HomeActivity_, com.phy.mobilesafe.activity.SettingActivity_, com.phy.mobilesafe.activity.LostFindActivity, com.phy.mobilesafe.activity.Setup1Activity_, com.phy.mobilesafe.activity.Setup2Activity_, com.phy.mobilesafe.activity.Setup3Activity_, com.phy.mobilesafe.activity.Setup4Activity_], permissionQualifiedNames=[android.permission.INTERNET, android.permission.WRITE_EXTERNAL_STORAGE], applicationClassName=null, libraryProject=false, debugabble=false, minSdkVersion=14, maxSdkVersion=-1, targetSdkVersion=17]
+15:34:54.770 [Worker-94] INFO  o.a.r.ProjectRClassFinder:50 - Found project R class: com.phy.mobilesafe.R
+15:34:54.774 [Worker-94] INFO  o.a.r.AndroidRClassFinder:44 - Found Android class: android.R
+15:34:54.801 [Worker-94] INFO  o.a.p.ModelValidator:42 - Validating elements
+15:34:54.802 [Worker-94] DEBUG o.a.p.ModelValidator:62 - Validating with EActivityHandler: [com.phy.mobilesafe.activity.Setup3Activity]
+15:34:54.803 [Worker-94] INFO  o.a.p.ModelProcessor:74 - Processing root elements
+15:34:54.803 [Worker-94] DEBUG o.a.p.ModelProcessor:176 - Processing root elements EActivityHandler: [com.phy.mobilesafe.activity.Setup3Activity]
+15:34:54.817 [Worker-94] INFO  o.a.p.ModelProcessor:86 - Processing enclosed elements
+15:34:54.818 [Worker-94] INFO  o.a.AndroidAnnotationProcessor:249 - Number of files generated by AndroidAnnotations: 1
+15:34:54.819 [Worker-94] INFO  o.a.g.ApiCodeGenerator:52 - Writting following API classes in project: []
+15:34:54.819 [Worker-94] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.phy.mobilesafe.activity.Setup3Activity_
+15:34:54.821 [Worker-94] INFO  o.a.p.TimeStats:81 - Time measurements: [Whole Processing = 56 ms], [Find R Classes = 31 ms], [Process Annotations = 15 ms], [Extract Manifest = 3 ms], [Generate Sources = 3 ms], [Validate Annotations = 2 ms], [Extract Annotations = 1 ms], 
+15:34:54.821 [Worker-94] INFO  o.a.AndroidAnnotationProcessor:121 - Finish processing
+15:35:22.392 [Worker-107] INFO  o.a.AndroidAnnotationProcessor:83 - Initialize AndroidAnnotations 3.3.2 with options {phase=BUILD}
+15:35:22.394 [Worker-107] INFO  o.a.AndroidAnnotationProcessor:107 - Start processing for 2 annotations on 1 elements
+15:35:22.396 [Worker-107] DEBUG o.a.h.AndroidManifestFinder:137 - AndroidManifest.xml file found in parent folder E:\month_workspace\MobilSafe\MobileSafe: E:\month_workspace\MobilSafe\MobileSafe\AndroidManifest.xml
+15:35:22.399 [Worker-107] INFO  o.a.AndroidAnnotationProcessor:170 - AndroidManifest.xml found: AndroidManifest [applicationPackage=com.phy.mobilesafe, componentQualifiedNames=[com.phy.mobilesafe.activity.SplashActivity_, com.phy.mobilesafe.activity.HomeActivity_, com.phy.mobilesafe.activity.SettingActivity_, com.phy.mobilesafe.activity.LostFindActivity, com.phy.mobilesafe.activity.Setup1Activity_, com.phy.mobilesafe.activity.Setup2Activity_, com.phy.mobilesafe.activity.Setup3Activity_, com.phy.mobilesafe.activity.Setup4Activity_], permissionQualifiedNames=[android.permission.INTERNET, android.permission.WRITE_EXTERNAL_STORAGE], applicationClassName=null, libraryProject=false, debugabble=false, minSdkVersion=14, maxSdkVersion=-1, targetSdkVersion=17]
+15:35:22.400 [Worker-107] INFO  o.a.r.ProjectRClassFinder:50 - Found project R class: com.phy.mobilesafe.R
+15:35:22.404 [Worker-107] INFO  o.a.r.AndroidRClassFinder:44 - Found Android class: android.R
+15:35:22.437 [Worker-107] INFO  o.a.p.ModelValidator:42 - Validating elements
+15:35:22.437 [Worker-107] DEBUG o.a.p.ModelValidator:62 - Validating with EActivityHandler: [com.phy.mobilesafe.activity.Setup4Activity]
+15:35:22.438 [Worker-107] DEBUG o.a.p.ModelValidator:62 - Validating with AfterViewsHandler: [void ConfigSharedPre() ]
+15:35:22.439 [Worker-107] INFO  o.a.p.ModelProcessor:74 - Processing root elements
+15:35:22.439 [Worker-107] DEBUG o.a.p.ModelProcessor:176 - Processing root elements EActivityHandler: [com.phy.mobilesafe.activity.Setup4Activity]
+15:35:22.456 [Worker-107] INFO  o.a.p.ModelProcessor:86 - Processing enclosed elements
+15:35:22.456 [Worker-107] INFO  o.a.AndroidAnnotationProcessor:249 - Number of files generated by AndroidAnnotations: 1
+15:35:22.457 [Worker-107] INFO  o.a.g.ApiCodeGenerator:52 - Writting following API classes in project: []
+15:35:22.457 [Worker-107] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.phy.mobilesafe.activity.Setup4Activity_
+15:35:22.464 [Worker-107] INFO  o.a.p.TimeStats:81 - Time measurements: [Whole Processing = 70 ms], [Find R Classes = 37 ms], [Process Annotations = 17 ms], [Generate Sources = 8 ms], [Extract Manifest = 3 ms], [Extract Annotations = 2 ms], [Validate Annotations = 2 ms], 
+15:35:22.465 [Worker-107] INFO  o.a.AndroidAnnotationProcessor:121 - Finish processing
+15:36:12.200 [Worker-108] INFO  o.a.AndroidAnnotationProcessor:83 - Initialize AndroidAnnotations 3.3.2 with options {phase=BUILD}
+15:36:21.675 [Worker-90] INFO  o.a.AndroidAnnotationProcessor:83 - Initialize AndroidAnnotations 3.3.2 with options {phase=BUILD}
+16:58:17.543 [Worker-113] INFO  o.a.AndroidAnnotationProcessor:83 - Initialize AndroidAnnotations 3.3.2 with options {phase=BUILD}
+16:58:17.669 [Worker-113] INFO  o.a.AndroidAnnotationProcessor:107 - Start processing for 4 annotations on 16 elements
+16:58:17.673 [Worker-113] DEBUG o.a.h.AndroidManifestFinder:137 - AndroidManifest.xml file found in parent folder E:\month_workspace\MobilSafe\MobileSafe: E:\month_workspace\MobilSafe\MobileSafe\AndroidManifest.xml
+16:58:17.675 [Worker-113] INFO  o.a.AndroidAnnotationProcessor:170 - AndroidManifest.xml found: AndroidManifest [applicationPackage=com.phy.mobilesafe, componentQualifiedNames=[com.phy.mobilesafe.activity.SplashActivity_, com.phy.mobilesafe.activity.HomeActivity_, com.phy.mobilesafe.activity.SettingActivity_, com.phy.mobilesafe.activity.LostFindActivity, com.phy.mobilesafe.activity.Setup1Activity_, com.phy.mobilesafe.activity.Setup2Activity_, com.phy.mobilesafe.activity.Setup3Activity_, com.phy.mobilesafe.activity.Setup4Activity_], permissionQualifiedNames=[android.permission.INTERNET, android.permission.WRITE_EXTERNAL_STORAGE], applicationClassName=null, libraryProject=false, debugabble=false, minSdkVersion=14, maxSdkVersion=-1, targetSdkVersion=17]
+16:58:17.675 [Worker-113] INFO  o.a.r.ProjectRClassFinder:50 - Found project R class: com.phy.mobilesafe.R
+16:58:17.680 [Worker-113] INFO  o.a.r.AndroidRClassFinder:44 - Found Android class: android.R
+16:58:17.722 [Worker-113] INFO  o.a.p.ModelValidator:42 - Validating elements
+16:58:17.722 [Worker-113] DEBUG o.a.p.ModelValidator:62 - Validating with EActivityHandler: [com.phy.mobilesafe.activity.Setup2Activity, com.phy.mobilesafe.activity.Setup1Activity, com.phy.mobilesafe.activity.Setup4Activity, com.phy.mobilesafe.activity.Setup3Activity, com.phy.mobilesafe.activity.SettingActivity, com.phy.mobilesafe.activity.SplashActivity, com.phy.mobilesafe.activity.HomeActivity]
+16:58:17.723 [Worker-113] DEBUG o.a.p.ModelValidator:62 - Validating with ViewByIdHandler: [sivUpdate, tvVersion, gvHome, rlRoot, tvProgress]
+16:58:17.741 [Worker-113] DEBUG o.a.p.ModelValidator:62 - Validating with ItemClickHandler: [public void gvHomeItemClicked(int) ]
+16:58:17.741 [Worker-113] DEBUG o.a.p.ModelValidator:62 - Validating with AfterViewsHandler: [void updateViewWithDate() , void ConfigSharedPre() , void GetAndSetSharedPreferences() , void ShowAndCheckVersion() ]
+16:58:17.743 [Worker-113] INFO  o.a.p.ModelProcessor:74 - Processing root elements
+16:58:17.743 [Worker-113] DEBUG o.a.p.ModelProcessor:176 - Processing root elements EActivityHandler: [com.phy.mobilesafe.activity.Setup2Activity, com.phy.mobilesafe.activity.Setup1Activity, com.phy.mobilesafe.activity.Setup4Activity, com.phy.mobilesafe.activity.Setup3Activity, com.phy.mobilesafe.activity.SettingActivity, com.phy.mobilesafe.activity.SplashActivity, com.phy.mobilesafe.activity.HomeActivity]
+16:58:17.830 [Worker-113] INFO  o.a.p.ModelProcessor:86 - Processing enclosed elements
+16:58:17.830 [Worker-113] DEBUG o.a.p.ModelProcessor:98 - Processing enclosed elements with ViewByIdHandler: [org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@1054b54, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@1b2ec10, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@11fdadd, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@1ef855c, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@1f97f37]
+16:58:17.831 [Worker-113] DEBUG o.a.p.ModelProcessor:98 - Processing enclosed elements with ItemClickHandler: [org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@171a3b5]
+16:58:17.832 [Worker-113] DEBUG o.a.p.ModelProcessor:98 - Processing enclosed elements with AfterViewsHandler: [org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@1675535, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@d8108f, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@1ab5873, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@1948769]
+16:58:17.832 [Worker-113] INFO  o.a.AndroidAnnotationProcessor:249 - Number of files generated by AndroidAnnotations: 7
+16:58:17.833 [Worker-113] INFO  o.a.g.ApiCodeGenerator:52 - Writting following API classes in project: []
+16:58:17.833 [Worker-113] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.phy.mobilesafe.activity.HomeActivity_
+16:58:17.839 [Worker-113] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.phy.mobilesafe.activity.SettingActivity_
+16:58:17.841 [Worker-113] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.phy.mobilesafe.activity.Setup1Activity_
+16:58:17.843 [Worker-113] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.phy.mobilesafe.activity.Setup2Activity_
+16:58:17.845 [Worker-113] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.phy.mobilesafe.activity.Setup3Activity_
+16:58:17.846 [Worker-113] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.phy.mobilesafe.activity.Setup4Activity_
+16:58:17.848 [Worker-113] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.phy.mobilesafe.activity.SplashActivity_
+16:58:17.872 [Worker-113] INFO  o.a.p.TimeStats:81 - Time measurements: [Whole Processing = 203 ms], [Process Annotations = 90 ms], [Find R Classes = 47 ms], [Generate Sources = 40 ms], [Validate Annotations = 20 ms], [Extract Annotations = 4 ms], [Extract Manifest = 2 ms], 
+16:58:17.873 [Worker-113] INFO  o.a.AndroidAnnotationProcessor:121 - Finish processing
+16:59:18.585 [Worker-117] INFO  o.a.AndroidAnnotationProcessor:83 - Initialize AndroidAnnotations 3.3.2 with options {phase=BUILD}
+16:59:18.641 [Worker-117] INFO  o.a.AndroidAnnotationProcessor:107 - Start processing for 4 annotations on 16 elements
+16:59:18.644 [Worker-117] DEBUG o.a.h.AndroidManifestFinder:137 - AndroidManifest.xml file found in parent folder E:\month_workspace\MobilSafe\MobileSafe: E:\month_workspace\MobilSafe\MobileSafe\AndroidManifest.xml
+16:59:18.645 [Worker-117] INFO  o.a.AndroidAnnotationProcessor:170 - AndroidManifest.xml found: AndroidManifest [applicationPackage=com.phy.mobilesafe, componentQualifiedNames=[com.phy.mobilesafe.activity.SplashActivity_, com.phy.mobilesafe.activity.HomeActivity_, com.phy.mobilesafe.activity.SettingActivity_, com.phy.mobilesafe.activity.LostFindActivity, com.phy.mobilesafe.activity.Setup1Activity_, com.phy.mobilesafe.activity.Setup2Activity_, com.phy.mobilesafe.activity.Setup3Activity_, com.phy.mobilesafe.activity.Setup4Activity_], permissionQualifiedNames=[android.permission.INTERNET, android.permission.WRITE_EXTERNAL_STORAGE], applicationClassName=null, libraryProject=false, debugabble=false, minSdkVersion=14, maxSdkVersion=-1, targetSdkVersion=17]
+16:59:18.646 [Worker-117] INFO  o.a.r.ProjectRClassFinder:50 - Found project R class: com.phy.mobilesafe.R
+16:59:18.649 [Worker-117] INFO  o.a.r.AndroidRClassFinder:44 - Found Android class: android.R
+16:59:18.678 [Worker-117] INFO  o.a.p.ModelValidator:42 - Validating elements
+16:59:18.678 [Worker-117] DEBUG o.a.p.ModelValidator:62 - Validating with EActivityHandler: [com.phy.mobilesafe.activity.Setup2Activity, com.phy.mobilesafe.activity.Setup1Activity, com.phy.mobilesafe.activity.Setup4Activity, com.phy.mobilesafe.activity.Setup3Activity, com.phy.mobilesafe.activity.SettingActivity, com.phy.mobilesafe.activity.SplashActivity, com.phy.mobilesafe.activity.HomeActivity]
+16:59:18.679 [Worker-117] DEBUG o.a.p.ModelValidator:62 - Validating with ViewByIdHandler: [tvVersion, gvHome, rlRoot, sivUpdate, tvProgress]
+16:59:18.681 [Worker-117] DEBUG o.a.p.ModelValidator:62 - Validating with ItemClickHandler: [public void gvHomeItemClicked(int) ]
+16:59:18.682 [Worker-117] DEBUG o.a.p.ModelValidator:62 - Validating with AfterViewsHandler: [void ShowAndCheckVersion() , void updateViewWithDate() , void ConfigSharedPre() , void GetAndSetSharedPreferences() ]
+16:59:18.683 [Worker-117] INFO  o.a.p.ModelProcessor:74 - Processing root elements
+16:59:18.683 [Worker-117] DEBUG o.a.p.ModelProcessor:176 - Processing root elements EActivityHandler: [com.phy.mobilesafe.activity.Setup2Activity, com.phy.mobilesafe.activity.Setup1Activity, com.phy.mobilesafe.activity.Setup4Activity, com.phy.mobilesafe.activity.Setup3Activity, com.phy.mobilesafe.activity.SettingActivity, com.phy.mobilesafe.activity.SplashActivity, com.phy.mobilesafe.activity.HomeActivity]
+16:59:18.718 [Worker-117] INFO  o.a.p.ModelProcessor:86 - Processing enclosed elements
+16:59:18.719 [Worker-117] DEBUG o.a.p.ModelProcessor:98 - Processing enclosed elements with ViewByIdHandler: [org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@1773a63, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@1091a61, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@31ca9, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@dd9aa1, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@c448db]
+16:59:18.720 [Worker-117] DEBUG o.a.p.ModelProcessor:98 - Processing enclosed elements with ItemClickHandler: [org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@12201e1]
+16:59:18.721 [Worker-117] DEBUG o.a.p.ModelProcessor:98 - Processing enclosed elements with AfterViewsHandler: [org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@fb8edb, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@135e834, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@99a1b0, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@87197a]
+16:59:18.721 [Worker-117] INFO  o.a.AndroidAnnotationProcessor:249 - Number of files generated by AndroidAnnotations: 7
+16:59:18.722 [Worker-117] INFO  o.a.g.ApiCodeGenerator:52 - Writting following API classes in project: []
+16:59:18.722 [Worker-117] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.phy.mobilesafe.activity.HomeActivity_
+16:59:18.724 [Worker-117] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.phy.mobilesafe.activity.SettingActivity_
+16:59:18.725 [Worker-117] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.phy.mobilesafe.activity.Setup1Activity_
+16:59:18.727 [Worker-117] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.phy.mobilesafe.activity.Setup2Activity_
+16:59:18.728 [Worker-117] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.phy.mobilesafe.activity.Setup3Activity_
+16:59:18.729 [Worker-117] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.phy.mobilesafe.activity.Setup4Activity_
+16:59:18.730 [Worker-117] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.phy.mobilesafe.activity.SplashActivity_
+16:59:18.732 [Worker-117] INFO  o.a.p.TimeStats:81 - Time measurements: [Whole Processing = 91 ms], [Process Annotations = 39 ms], [Find R Classes = 32 ms], [Generate Sources = 11 ms], [Validate Annotations = 4 ms], [Extract Annotations = 3 ms], [Extract Manifest = 1 ms], 
+16:59:18.733 [Worker-117] INFO  o.a.AndroidAnnotationProcessor:121 - Finish processing
+17:02:16.169 [Worker-115] INFO  o.a.AndroidAnnotationProcessor:83 - Initialize AndroidAnnotations 3.3.2 with options {phase=BUILD}
+17:02:16.246 [Worker-115] INFO  o.a.AndroidAnnotationProcessor:107 - Start processing for 4 annotations on 16 elements
+17:02:16.250 [Worker-115] DEBUG o.a.h.AndroidManifestFinder:137 - AndroidManifest.xml file found in parent folder E:\month_workspace\MobilSafe\MobileSafe: E:\month_workspace\MobilSafe\MobileSafe\AndroidManifest.xml
+17:02:16.253 [Worker-115] INFO  o.a.AndroidAnnotationProcessor:170 - AndroidManifest.xml found: AndroidManifest [applicationPackage=com.phy.mobilesafe, componentQualifiedNames=[com.phy.mobilesafe.activity.SplashActivity_, com.phy.mobilesafe.activity.HomeActivity_, com.phy.mobilesafe.activity.SettingActivity_, com.phy.mobilesafe.activity.LostFindActivity, com.phy.mobilesafe.activity.Setup1Activity_, com.phy.mobilesafe.activity.Setup2Activity_, com.phy.mobilesafe.activity.Setup3Activity_, com.phy.mobilesafe.activity.Setup4Activity_], permissionQualifiedNames=[android.permission.INTERNET, android.permission.WRITE_EXTERNAL_STORAGE], applicationClassName=null, libraryProject=false, debugabble=false, minSdkVersion=14, maxSdkVersion=-1, targetSdkVersion=17]
+17:02:16.254 [Worker-115] INFO  o.a.r.ProjectRClassFinder:50 - Found project R class: com.phy.mobilesafe.R
+17:02:16.260 [Worker-115] INFO  o.a.r.AndroidRClassFinder:44 - Found Android class: android.R
+17:02:16.296 [Worker-115] INFO  o.a.p.ModelValidator:42 - Validating elements
+17:02:16.297 [Worker-115] DEBUG o.a.p.ModelValidator:62 - Validating with EActivityHandler: [com.phy.mobilesafe.activity.Setup2Activity, com.phy.mobilesafe.activity.Setup1Activity, com.phy.mobilesafe.activity.Setup4Activity, com.phy.mobilesafe.activity.Setup3Activity, com.phy.mobilesafe.activity.SettingActivity, com.phy.mobilesafe.activity.SplashActivity, com.phy.mobilesafe.activity.HomeActivity]
+17:02:16.298 [Worker-115] DEBUG o.a.p.ModelValidator:62 - Validating with ViewByIdHandler: [sivUpdate, tvProgress, rlRoot, tvVersion, gvHome]
+17:02:16.300 [Worker-115] DEBUG o.a.p.ModelValidator:62 - Validating with ItemClickHandler: [public void gvHomeItemClicked(int) ]
+17:02:16.301 [Worker-115] DEBUG o.a.p.ModelValidator:62 - Validating with AfterViewsHandler: [void updateViewWithDate() , void GetAndSetSharedPreferences() , void ConfigSharedPre() , void ShowAndCheckVersion() ]
+17:02:16.302 [Worker-115] INFO  o.a.p.ModelProcessor:74 - Processing root elements
+17:02:16.302 [Worker-115] DEBUG o.a.p.ModelProcessor:176 - Processing root elements EActivityHandler: [com.phy.mobilesafe.activity.Setup2Activity, com.phy.mobilesafe.activity.Setup1Activity, com.phy.mobilesafe.activity.Setup4Activity, com.phy.mobilesafe.activity.Setup3Activity, com.phy.mobilesafe.activity.SettingActivity, com.phy.mobilesafe.activity.SplashActivity, com.phy.mobilesafe.activity.HomeActivity]
+17:02:16.346 [Worker-115] INFO  o.a.p.ModelProcessor:86 - Processing enclosed elements
+17:02:16.347 [Worker-115] DEBUG o.a.p.ModelProcessor:98 - Processing enclosed elements with ViewByIdHandler: [org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@a9a5a, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@10a5c5d, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@a6c1d1, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@1f4151e, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@1e8e9d5]
+17:02:16.348 [Worker-115] DEBUG o.a.p.ModelProcessor:98 - Processing enclosed elements with ItemClickHandler: [org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@b9bc69]
+17:02:16.348 [Worker-115] DEBUG o.a.p.ModelProcessor:98 - Processing enclosed elements with AfterViewsHandler: [org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@117dd7f, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@185275c, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@e655dd, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@7daa90]
+17:02:16.349 [Worker-115] INFO  o.a.AndroidAnnotationProcessor:249 - Number of files generated by AndroidAnnotations: 7
+17:02:16.349 [Worker-115] INFO  o.a.g.ApiCodeGenerator:52 - Writting following API classes in project: []
+17:02:16.349 [Worker-115] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.phy.mobilesafe.activity.HomeActivity_
+17:02:16.355 [Worker-115] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.phy.mobilesafe.activity.SettingActivity_
+17:02:16.358 [Worker-115] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.phy.mobilesafe.activity.Setup1Activity_
+17:02:16.359 [Worker-115] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.phy.mobilesafe.activity.Setup2Activity_
+17:02:16.361 [Worker-115] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.phy.mobilesafe.activity.Setup3Activity_
+17:02:16.363 [Worker-115] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.phy.mobilesafe.activity.Setup4Activity_
+17:02:16.364 [Worker-115] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.phy.mobilesafe.activity.SplashActivity_
+17:02:16.390 [Worker-115] INFO  o.a.p.TimeStats:81 - Time measurements: [Whole Processing = 144 ms], [Process Annotations = 47 ms], [Find R Classes = 42 ms], [Generate Sources = 41 ms], [Validate Annotations = 6 ms], [Extract Annotations = 3 ms], [Extract Manifest = 3 ms], 
+17:02:16.391 [Worker-115] INFO  o.a.AndroidAnnotationProcessor:121 - Finish processing
+17:16:14.315 [Worker-123] INFO  o.a.AndroidAnnotationProcessor:83 - Initialize AndroidAnnotations 3.3.2 with options {phase=BUILD}
+17:17:50.244 [Worker-124] INFO  o.a.AndroidAnnotationProcessor:83 - Initialize AndroidAnnotations 3.3.2 with options {phase=BUILD}
+17:17:50.330 [Worker-124] INFO  o.a.AndroidAnnotationProcessor:107 - Start processing for 4 annotations on 16 elements
+17:17:50.336 [Worker-124] DEBUG o.a.h.AndroidManifestFinder:137 - AndroidManifest.xml file found in parent folder E:\month_workspace\MobilSafe\MobileSafe: E:\month_workspace\MobilSafe\MobileSafe\AndroidManifest.xml
+17:17:50.338 [Worker-124] INFO  o.a.AndroidAnnotationProcessor:170 - AndroidManifest.xml found: AndroidManifest [applicationPackage=com.phy.mobilesafe, componentQualifiedNames=[com.phy.mobilesafe.activity.SplashActivity_, com.phy.mobilesafe.activity.HomeActivity_, com.phy.mobilesafe.activity.SettingActivity_, com.phy.mobilesafe.activity.LostFindActivity, com.phy.mobilesafe.activity.Setup1Activity_, com.phy.mobilesafe.activity.Setup2Activity_, com.phy.mobilesafe.activity.Setup3Activity_, com.phy.mobilesafe.activity.Setup4Activity_], permissionQualifiedNames=[android.permission.INTERNET, android.permission.WRITE_EXTERNAL_STORAGE], applicationClassName=null, libraryProject=false, debugabble=false, minSdkVersion=14, maxSdkVersion=-1, targetSdkVersion=17]
+17:17:50.339 [Worker-124] INFO  o.a.r.ProjectRClassFinder:50 - Found project R class: com.phy.mobilesafe.R
+17:17:50.346 [Worker-124] INFO  o.a.r.AndroidRClassFinder:44 - Found Android class: android.R
+17:17:50.398 [Worker-124] INFO  o.a.p.ModelValidator:42 - Validating elements
+17:17:50.399 [Worker-124] DEBUG o.a.p.ModelValidator:62 - Validating with EActivityHandler: [com.phy.mobilesafe.activity.Setup2Activity, com.phy.mobilesafe.activity.Setup1Activity, com.phy.mobilesafe.activity.Setup4Activity, com.phy.mobilesafe.activity.Setup3Activity, com.phy.mobilesafe.activity.SettingActivity, com.phy.mobilesafe.activity.SplashActivity, com.phy.mobilesafe.activity.HomeActivity]
+17:17:50.400 [Worker-124] DEBUG o.a.p.ModelValidator:62 - Validating with ViewByIdHandler: [rlRoot, sivUpdate, gvHome, tvProgress, tvVersion]
+17:17:50.404 [Worker-124] DEBUG o.a.p.ModelValidator:62 - Validating with ItemClickHandler: [public void gvHomeItemClicked(int) ]
+17:17:50.405 [Worker-124] DEBUG o.a.p.ModelValidator:62 - Validating with AfterViewsHandler: [void updateViewWithDate() , void GetAndSetSharedPreferences() , void ConfigSharedPre() , void ShowAndCheckVersion() ]
+17:17:50.407 [Worker-124] INFO  o.a.p.ModelProcessor:74 - Processing root elements
+17:17:50.408 [Worker-124] DEBUG o.a.p.ModelProcessor:176 - Processing root elements EActivityHandler: [com.phy.mobilesafe.activity.Setup2Activity, com.phy.mobilesafe.activity.Setup1Activity, com.phy.mobilesafe.activity.Setup4Activity, com.phy.mobilesafe.activity.Setup3Activity, com.phy.mobilesafe.activity.SettingActivity, com.phy.mobilesafe.activity.SplashActivity, com.phy.mobilesafe.activity.HomeActivity]
+17:17:50.480 [Worker-124] INFO  o.a.p.ModelProcessor:86 - Processing enclosed elements
+17:17:50.481 [Worker-124] DEBUG o.a.p.ModelProcessor:98 - Processing enclosed elements with ViewByIdHandler: [org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@949115, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@160a4f4, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@171fba4, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@1f94dd1, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@1a09afb]
+17:17:50.484 [Worker-124] DEBUG o.a.p.ModelProcessor:98 - Processing enclosed elements with ItemClickHandler: [org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@106d87b]
+17:17:50.487 [Worker-124] DEBUG o.a.p.ModelProcessor:98 - Processing enclosed elements with AfterViewsHandler: [org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@10bec5c, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@e3ab44, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@1adc124, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@385fe5]
+17:17:50.489 [Worker-124] INFO  o.a.AndroidAnnotationProcessor:249 - Number of files generated by AndroidAnnotations: 7
+17:17:50.491 [Worker-124] INFO  o.a.g.ApiCodeGenerator:52 - Writting following API classes in project: []
+17:17:50.491 [Worker-124] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.phy.mobilesafe.activity.HomeActivity_
+17:17:50.501 [Worker-124] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.phy.mobilesafe.activity.SettingActivity_
+17:17:50.505 [Worker-124] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.phy.mobilesafe.activity.Setup1Activity_
+17:17:50.508 [Worker-124] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.phy.mobilesafe.activity.Setup2Activity_
+17:17:50.559 [Worker-124] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.phy.mobilesafe.activity.Setup3Activity_
+17:17:50.561 [Worker-124] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.phy.mobilesafe.activity.Setup4Activity_
+17:17:50.563 [Worker-124] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.phy.mobilesafe.activity.SplashActivity_
+17:17:50.584 [Worker-124] INFO  o.a.p.TimeStats:81 - Time measurements: [Whole Processing = 254 ms], [Generate Sources = 95 ms], [Process Annotations = 82 ms], [Find R Classes = 59 ms], [Validate Annotations = 9 ms], [Extract Annotations = 4 ms], [Extract Manifest = 3 ms], 
+17:17:50.585 [Worker-124] INFO  o.a.AndroidAnnotationProcessor:121 - Finish processing
+17:18:34.749 [Worker-120] INFO  o.a.AndroidAnnotationProcessor:83 - Initialize AndroidAnnotations 3.3.2 with options {phase=BUILD}
+17:18:34.888 [Worker-120] INFO  o.a.AndroidAnnotationProcessor:107 - Start processing for 4 annotations on 16 elements
+17:18:34.895 [Worker-120] DEBUG o.a.h.AndroidManifestFinder:137 - AndroidManifest.xml file found in parent folder E:\month_workspace\MobilSafe\MobileSafe: E:\month_workspace\MobilSafe\MobileSafe\AndroidManifest.xml
+17:18:34.898 [Worker-120] INFO  o.a.AndroidAnnotationProcessor:170 - AndroidManifest.xml found: AndroidManifest [applicationPackage=com.phy.mobilesafe, componentQualifiedNames=[com.phy.mobilesafe.activity.SplashActivity_, com.phy.mobilesafe.activity.HomeActivity_, com.phy.mobilesafe.activity.SettingActivity_, com.phy.mobilesafe.activity.LostFindActivity, com.phy.mobilesafe.activity.Setup1Activity_, com.phy.mobilesafe.activity.Setup2Activity_, com.phy.mobilesafe.activity.Setup3Activity_, com.phy.mobilesafe.activity.Setup4Activity_], permissionQualifiedNames=[android.permission.INTERNET, android.permission.WRITE_EXTERNAL_STORAGE], applicationClassName=null, libraryProject=false, debugabble=false, minSdkVersion=14, maxSdkVersion=-1, targetSdkVersion=17]
+17:18:34.898 [Worker-120] INFO  o.a.r.ProjectRClassFinder:50 - Found project R class: com.phy.mobilesafe.R
+17:18:34.907 [Worker-120] INFO  o.a.r.AndroidRClassFinder:44 - Found Android class: android.R
+17:18:34.951 [Worker-120] INFO  o.a.p.ModelValidator:42 - Validating elements
+17:18:34.952 [Worker-120] DEBUG o.a.p.ModelValidator:62 - Validating with EActivityHandler: [com.phy.mobilesafe.activity.Setup2Activity, com.phy.mobilesafe.activity.Setup1Activity, com.phy.mobilesafe.activity.Setup4Activity, com.phy.mobilesafe.activity.Setup3Activity, com.phy.mobilesafe.activity.SettingActivity, com.phy.mobilesafe.activity.SplashActivity, com.phy.mobilesafe.activity.HomeActivity]
+17:18:34.954 [Worker-120] DEBUG o.a.p.ModelValidator:62 - Validating with ViewByIdHandler: [tvVersion, sivUpdate, rlRoot, gvHome, tvProgress]
+17:18:34.958 [Worker-120] DEBUG o.a.p.ModelValidator:62 - Validating with ItemClickHandler: [public void gvHomeItemClicked(int) ]
+17:18:34.959 [Worker-120] DEBUG o.a.p.ModelValidator:62 - Validating with AfterViewsHandler: [void GetAndSetSharedPreferences() , void ShowAndCheckVersion() , void updateViewWithDate() , void ConfigSharedPre() ]
+17:18:34.961 [Worker-120] INFO  o.a.p.ModelProcessor:74 - Processing root elements
+17:18:34.961 [Worker-120] DEBUG o.a.p.ModelProcessor:176 - Processing root elements EActivityHandler: [com.phy.mobilesafe.activity.Setup2Activity, com.phy.mobilesafe.activity.Setup1Activity, com.phy.mobilesafe.activity.Setup4Activity, com.phy.mobilesafe.activity.Setup3Activity, com.phy.mobilesafe.activity.SettingActivity, com.phy.mobilesafe.activity.SplashActivity, com.phy.mobilesafe.activity.HomeActivity]
+17:18:35.13 [Worker-120] INFO  o.a.p.ModelProcessor:86 - Processing enclosed elements
+17:18:35.14 [Worker-120] DEBUG o.a.p.ModelProcessor:98 - Processing enclosed elements with ViewByIdHandler: [org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@90ea60, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@13a078f, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@71f117, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@44c648, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@118cab5]
+17:18:35.16 [Worker-120] DEBUG o.a.p.ModelProcessor:98 - Processing enclosed elements with ItemClickHandler: [org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@1cf2456]
+17:18:35.16 [Worker-120] DEBUG o.a.p.ModelProcessor:98 - Processing enclosed elements with AfterViewsHandler: [org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@2d7789, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@c15514, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@1951b43, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@8edce9]
+17:18:35.17 [Worker-120] INFO  o.a.AndroidAnnotationProcessor:249 - Number of files generated by AndroidAnnotations: 7
+17:18:35.17 [Worker-120] INFO  o.a.g.ApiCodeGenerator:52 - Writting following API classes in project: []
+17:18:35.18 [Worker-120] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.phy.mobilesafe.activity.HomeActivity_
+17:18:35.20 [Worker-120] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.phy.mobilesafe.activity.SettingActivity_
+17:18:35.23 [Worker-120] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.phy.mobilesafe.activity.Setup1Activity_
+17:18:35.26 [Worker-120] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.phy.mobilesafe.activity.Setup2Activity_
+17:18:35.28 [Worker-120] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.phy.mobilesafe.activity.Setup3Activity_
+17:18:35.30 [Worker-120] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.phy.mobilesafe.activity.Setup4Activity_
+17:18:35.32 [Worker-120] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.phy.mobilesafe.activity.SplashActivity_
+17:18:35.44 [Worker-120] INFO  o.a.p.TimeStats:81 - Time measurements: [Whole Processing = 156 ms], [Process Annotations = 57 ms], [Find R Classes = 53 ms], [Generate Sources = 27 ms], [Validate Annotations = 9 ms], [Extract Annotations = 5 ms], [Extract Manifest = 3 ms], 
+17:18:35.44 [Worker-120] INFO  o.a.AndroidAnnotationProcessor:121 - Finish processing
+17:19:08.434 [Worker-120] INFO  o.a.AndroidAnnotationProcessor:83 - Initialize AndroidAnnotations 3.3.2 with options {phase=BUILD}
+17:19:08.496 [Worker-120] INFO  o.a.AndroidAnnotationProcessor:107 - Start processing for 4 annotations on 16 elements
+17:19:08.503 [Worker-120] DEBUG o.a.h.AndroidManifestFinder:137 - AndroidManifest.xml file found in parent folder E:\month_workspace\MobilSafe\MobileSafe: E:\month_workspace\MobilSafe\MobileSafe\AndroidManifest.xml
+17:19:08.506 [Worker-120] INFO  o.a.AndroidAnnotationProcessor:170 - AndroidManifest.xml found: AndroidManifest [applicationPackage=com.phy.mobilesafe, componentQualifiedNames=[com.phy.mobilesafe.activity.SplashActivity_, com.phy.mobilesafe.activity.HomeActivity_, com.phy.mobilesafe.activity.SettingActivity_, com.phy.mobilesafe.activity.LostFindActivity, com.phy.mobilesafe.activity.Setup1Activity_, com.phy.mobilesafe.activity.Setup2Activity_, com.phy.mobilesafe.activity.Setup3Activity_, com.phy.mobilesafe.activity.Setup4Activity_], permissionQualifiedNames=[android.permission.INTERNET, android.permission.WRITE_EXTERNAL_STORAGE], applicationClassName=null, libraryProject=false, debugabble=false, minSdkVersion=14, maxSdkVersion=-1, targetSdkVersion=17]
+17:19:08.507 [Worker-120] INFO  o.a.r.ProjectRClassFinder:50 - Found project R class: com.phy.mobilesafe.R
+17:19:08.515 [Worker-120] INFO  o.a.r.AndroidRClassFinder:44 - Found Android class: android.R
+17:19:08.566 [Worker-120] INFO  o.a.p.ModelValidator:42 - Validating elements
+17:19:08.566 [Worker-120] DEBUG o.a.p.ModelValidator:62 - Validating with EActivityHandler: [com.phy.mobilesafe.activity.Setup2Activity, com.phy.mobilesafe.activity.Setup1Activity, com.phy.mobilesafe.activity.Setup4Activity, com.phy.mobilesafe.activity.Setup3Activity, com.phy.mobilesafe.activity.SettingActivity, com.phy.mobilesafe.activity.SplashActivity, com.phy.mobilesafe.activity.HomeActivity]
+17:19:08.568 [Worker-120] DEBUG o.a.p.ModelValidator:62 - Validating with ViewByIdHandler: [tvVersion, rlRoot, sivUpdate, tvProgress, gvHome]
+17:19:08.572 [Worker-120] DEBUG o.a.p.ModelValidator:62 - Validating with ItemClickHandler: [public void gvHomeItemClicked(int) ]
+17:19:08.575 [Worker-120] DEBUG o.a.p.ModelValidator:62 - Validating with AfterViewsHandler: [void updateViewWithDate() , void GetAndSetSharedPreferences() , void ShowAndCheckVersion() , void ConfigSharedPre() ]
+17:19:08.576 [Worker-120] INFO  o.a.p.ModelProcessor:74 - Processing root elements
+17:19:08.578 [Worker-120] DEBUG o.a.p.ModelProcessor:176 - Processing root elements EActivityHandler: [com.phy.mobilesafe.activity.Setup2Activity, com.phy.mobilesafe.activity.Setup1Activity, com.phy.mobilesafe.activity.Setup4Activity, com.phy.mobilesafe.activity.Setup3Activity, com.phy.mobilesafe.activity.SettingActivity, com.phy.mobilesafe.activity.SplashActivity, com.phy.mobilesafe.activity.HomeActivity]
+17:19:08.640 [Worker-120] INFO  o.a.p.ModelProcessor:86 - Processing enclosed elements
+17:19:08.641 [Worker-120] DEBUG o.a.p.ModelProcessor:98 - Processing enclosed elements with ViewByIdHandler: [org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@1bc008c, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@1fa71ae, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@1c79440, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@11629ca, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@1129e2c]
+17:19:08.642 [Worker-120] DEBUG o.a.p.ModelProcessor:98 - Processing enclosed elements with ItemClickHandler: [org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@5e81cc]
+17:19:08.644 [Worker-120] DEBUG o.a.p.ModelProcessor:98 - Processing enclosed elements with AfterViewsHandler: [org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@cd781c, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@98e220, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@1135619, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@2e7a72]
+17:19:08.644 [Worker-120] INFO  o.a.AndroidAnnotationProcessor:249 - Number of files generated by AndroidAnnotations: 7
+17:19:08.645 [Worker-120] INFO  o.a.g.ApiCodeGenerator:52 - Writting following API classes in project: []
+17:19:08.645 [Worker-120] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.phy.mobilesafe.activity.HomeActivity_
+17:19:08.648 [Worker-120] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.phy.mobilesafe.activity.SettingActivity_
+17:19:08.650 [Worker-120] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.phy.mobilesafe.activity.Setup1Activity_
+17:19:08.652 [Worker-120] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.phy.mobilesafe.activity.Setup2Activity_
+17:19:08.656 [Worker-120] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.phy.mobilesafe.activity.Setup3Activity_
+17:19:08.658 [Worker-120] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.phy.mobilesafe.activity.Setup4Activity_
+17:19:08.660 [Worker-120] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.phy.mobilesafe.activity.SplashActivity_
+17:19:08.662 [Worker-120] INFO  o.a.p.TimeStats:81 - Time measurements: [Whole Processing = 165 ms], [Process Annotations = 68 ms], [Find R Classes = 59 ms], [Generate Sources = 17 ms], [Validate Annotations = 10 ms], [Extract Annotations = 6 ms], [Extract Manifest = 3 ms], 
+17:19:08.662 [Worker-120] INFO  o.a.AndroidAnnotationProcessor:121 - Finish processing
+17:20:06.540 [Worker-124] INFO  o.a.AndroidAnnotationProcessor:83 - Initialize AndroidAnnotations 3.3.2 with options {phase=BUILD}
+17:20:06.645 [Worker-124] INFO  o.a.AndroidAnnotationProcessor:107 - Start processing for 4 annotations on 16 elements
+17:20:06.650 [Worker-124] DEBUG o.a.h.AndroidManifestFinder:137 - AndroidManifest.xml file found in parent folder E:\month_workspace\MobilSafe\MobileSafe: E:\month_workspace\MobilSafe\MobileSafe\AndroidManifest.xml
+17:20:06.654 [Worker-124] INFO  o.a.AndroidAnnotationProcessor:170 - AndroidManifest.xml found: AndroidManifest [applicationPackage=com.phy.mobilesafe, componentQualifiedNames=[com.phy.mobilesafe.activity.SplashActivity_, com.phy.mobilesafe.activity.HomeActivity_, com.phy.mobilesafe.activity.SettingActivity_, com.phy.mobilesafe.activity.LostFindActivity, com.phy.mobilesafe.activity.Setup1Activity_, com.phy.mobilesafe.activity.Setup2Activity_, com.phy.mobilesafe.activity.Setup3Activity_, com.phy.mobilesafe.activity.Setup4Activity_], permissionQualifiedNames=[android.permission.INTERNET, android.permission.WRITE_EXTERNAL_STORAGE], applicationClassName=null, libraryProject=false, debugabble=false, minSdkVersion=14, maxSdkVersion=-1, targetSdkVersion=17]
+17:20:06.656 [Worker-124] INFO  o.a.r.ProjectRClassFinder:50 - Found project R class: com.phy.mobilesafe.R
+17:20:06.662 [Worker-124] INFO  o.a.r.AndroidRClassFinder:44 - Found Android class: android.R
+17:20:06.700 [Worker-124] INFO  o.a.p.ModelValidator:42 - Validating elements
+17:20:06.701 [Worker-124] DEBUG o.a.p.ModelValidator:62 - Validating with EActivityHandler: [com.phy.mobilesafe.activity.Setup2Activity, com.phy.mobilesafe.activity.Setup1Activity, com.phy.mobilesafe.activity.Setup4Activity, com.phy.mobilesafe.activity.Setup3Activity, com.phy.mobilesafe.activity.SettingActivity, com.phy.mobilesafe.activity.SplashActivity, com.phy.mobilesafe.activity.HomeActivity]
+17:20:06.701 [Worker-124] DEBUG o.a.p.ModelValidator:62 - Validating with ViewByIdHandler: [tvVersion, tvProgress, sivUpdate, rlRoot, gvHome]
+17:20:06.703 [Worker-124] DEBUG o.a.p.ModelValidator:62 - Validating with ItemClickHandler: [public void gvHomeItemClicked(int) ]
+17:20:06.706 [Worker-124] DEBUG o.a.p.ModelValidator:62 - Validating with AfterViewsHandler: [void ShowAndCheckVersion() , void updateViewWithDate() , void ConfigSharedPre() , void GetAndSetSharedPreferences() ]
+17:20:06.707 [Worker-124] INFO  o.a.p.ModelProcessor:74 - Processing root elements
+17:20:06.708 [Worker-124] DEBUG o.a.p.ModelProcessor:176 - Processing root elements EActivityHandler: [com.phy.mobilesafe.activity.Setup2Activity, com.phy.mobilesafe.activity.Setup1Activity, com.phy.mobilesafe.activity.Setup4Activity, com.phy.mobilesafe.activity.Setup3Activity, com.phy.mobilesafe.activity.SettingActivity, com.phy.mobilesafe.activity.SplashActivity, com.phy.mobilesafe.activity.HomeActivity]
+17:20:06.759 [Worker-124] INFO  o.a.p.ModelProcessor:86 - Processing enclosed elements
+17:20:06.760 [Worker-124] DEBUG o.a.p.ModelProcessor:98 - Processing enclosed elements with ViewByIdHandler: [org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@1dc2ccf, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@de79d8, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@17f7737, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@7f1113, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@bf6f23]
+17:20:06.761 [Worker-124] DEBUG o.a.p.ModelProcessor:98 - Processing enclosed elements with ItemClickHandler: [org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@19e6a34]
+17:20:06.762 [Worker-124] DEBUG o.a.p.ModelProcessor:98 - Processing enclosed elements with AfterViewsHandler: [org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@1387c68, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@192bc52, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@d0e594, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@973a9d]
+17:20:06.762 [Worker-124] INFO  o.a.AndroidAnnotationProcessor:249 - Number of files generated by AndroidAnnotations: 7
+17:20:06.762 [Worker-124] INFO  o.a.g.ApiCodeGenerator:52 - Writting following API classes in project: []
+17:20:06.763 [Worker-124] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.phy.mobilesafe.activity.HomeActivity_
+17:20:06.769 [Worker-124] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.phy.mobilesafe.activity.SettingActivity_
+17:20:06.773 [Worker-124] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.phy.mobilesafe.activity.Setup1Activity_
+17:20:06.777 [Worker-124] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.phy.mobilesafe.activity.Setup2Activity_
+17:20:06.779 [Worker-124] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.phy.mobilesafe.activity.Setup3Activity_
+17:20:06.781 [Worker-124] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.phy.mobilesafe.activity.Setup4Activity_
+17:20:06.782 [Worker-124] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.phy.mobilesafe.activity.SplashActivity_
+17:20:06.813 [Worker-124] INFO  o.a.p.TimeStats:81 - Time measurements: [Whole Processing = 168 ms], [Process Annotations = 55 ms], [Generate Sources = 51 ms], [Find R Classes = 45 ms], [Validate Annotations = 7 ms], [Extract Annotations = 4 ms], [Extract Manifest = 4 ms], 
+17:20:06.813 [Worker-124] INFO  o.a.AndroidAnnotationProcessor:121 - Finish processing
+17:20:51.647 [Worker-124] INFO  o.a.AndroidAnnotationProcessor:83 - Initialize AndroidAnnotations 3.3.2 with options {phase=BUILD}
+17:20:51.771 [Worker-124] INFO  o.a.AndroidAnnotationProcessor:107 - Start processing for 4 annotations on 16 elements
+17:20:51.780 [Worker-124] DEBUG o.a.h.AndroidManifestFinder:137 - AndroidManifest.xml file found in parent folder E:\month_workspace\MobilSafe\MobileSafe: E:\month_workspace\MobilSafe\MobileSafe\AndroidManifest.xml
+17:20:51.782 [Worker-124] INFO  o.a.AndroidAnnotationProcessor:170 - AndroidManifest.xml found: AndroidManifest [applicationPackage=com.phy.mobilesafe, componentQualifiedNames=[com.phy.mobilesafe.activity.SplashActivity_, com.phy.mobilesafe.activity.HomeActivity_, com.phy.mobilesafe.activity.SettingActivity_, com.phy.mobilesafe.activity.LostFindActivity, com.phy.mobilesafe.activity.Setup1Activity_, com.phy.mobilesafe.activity.Setup2Activity_, com.phy.mobilesafe.activity.Setup3Activity_, com.phy.mobilesafe.activity.Setup4Activity_], permissionQualifiedNames=[android.permission.INTERNET, android.permission.WRITE_EXTERNAL_STORAGE], applicationClassName=null, libraryProject=false, debugabble=false, minSdkVersion=14, maxSdkVersion=-1, targetSdkVersion=17]
+17:20:51.784 [Worker-124] INFO  o.a.r.ProjectRClassFinder:50 - Found project R class: com.phy.mobilesafe.R
+17:20:51.791 [Worker-124] INFO  o.a.r.AndroidRClassFinder:44 - Found Android class: android.R
+17:20:51.825 [Worker-124] INFO  o.a.p.ModelValidator:42 - Validating elements
+17:20:51.826 [Worker-124] DEBUG o.a.p.ModelValidator:62 - Validating with EActivityHandler: [com.phy.mobilesafe.activity.Setup2Activity, com.phy.mobilesafe.activity.Setup1Activity, com.phy.mobilesafe.activity.Setup4Activity, com.phy.mobilesafe.activity.Setup3Activity, com.phy.mobilesafe.activity.SettingActivity, com.phy.mobilesafe.activity.SplashActivity, com.phy.mobilesafe.activity.HomeActivity]
+17:20:51.827 [Worker-124] DEBUG o.a.p.ModelValidator:62 - Validating with ViewByIdHandler: [gvHome, rlRoot, tvProgress, tvVersion, sivUpdate]
+17:20:51.829 [Worker-124] DEBUG o.a.p.ModelValidator:62 - Validating with ItemClickHandler: [public void gvHomeItemClicked(int) ]
+17:20:51.830 [Worker-124] DEBUG o.a.p.ModelValidator:62 - Validating with AfterViewsHandler: [void updateViewWithDate() , void ConfigSharedPre() , void ShowAndCheckVersion() , void GetAndSetSharedPreferences() ]
+17:20:51.831 [Worker-124] INFO  o.a.p.ModelProcessor:74 - Processing root elements
+17:20:51.831 [Worker-124] DEBUG o.a.p.ModelProcessor:176 - Processing root elements EActivityHandler: [com.phy.mobilesafe.activity.Setup2Activity, com.phy.mobilesafe.activity.Setup1Activity, com.phy.mobilesafe.activity.Setup4Activity, com.phy.mobilesafe.activity.Setup3Activity, com.phy.mobilesafe.activity.SettingActivity, com.phy.mobilesafe.activity.SplashActivity, com.phy.mobilesafe.activity.HomeActivity]
+17:20:51.882 [Worker-124] INFO  o.a.p.ModelProcessor:86 - Processing enclosed elements
+17:20:51.882 [Worker-124] DEBUG o.a.p.ModelProcessor:98 - Processing enclosed elements with ViewByIdHandler: [org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@15cb0e5, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@31be9b, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@e4dd88, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@14059bc, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@ef6162]
+17:20:51.883 [Worker-124] DEBUG o.a.p.ModelProcessor:98 - Processing enclosed elements with ItemClickHandler: [org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@15b7db1]
+17:20:51.884 [Worker-124] DEBUG o.a.p.ModelProcessor:98 - Processing enclosed elements with AfterViewsHandler: [org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@12fe9bc, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@ff1ac3, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@1de7a11, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@1ec0133]
+17:20:51.884 [Worker-124] INFO  o.a.AndroidAnnotationProcessor:249 - Number of files generated by AndroidAnnotations: 7
+17:20:51.885 [Worker-124] INFO  o.a.g.ApiCodeGenerator:52 - Writting following API classes in project: []
+17:20:51.885 [Worker-124] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.phy.mobilesafe.activity.HomeActivity_
+17:20:51.888 [Worker-124] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.phy.mobilesafe.activity.SettingActivity_
+17:20:51.892 [Worker-124] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.phy.mobilesafe.activity.Setup1Activity_
+17:20:51.894 [Worker-124] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.phy.mobilesafe.activity.Setup2Activity_
+17:20:51.896 [Worker-124] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.phy.mobilesafe.activity.Setup3Activity_
+17:20:51.898 [Worker-124] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.phy.mobilesafe.activity.Setup4Activity_
+17:20:51.900 [Worker-124] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.phy.mobilesafe.activity.SplashActivity_
+17:20:51.913 [Worker-124] INFO  o.a.p.TimeStats:81 - Time measurements: [Whole Processing = 143 ms], [Process Annotations = 53 ms], [Find R Classes = 42 ms], [Generate Sources = 29 ms], [Extract Annotations = 7 ms], [Validate Annotations = 6 ms], [Extract Manifest = 3 ms], 
+17:20:51.913 [Worker-124] INFO  o.a.AndroidAnnotationProcessor:121 - Finish processing
+17:51:07.713 [Worker-134] INFO  o.a.AndroidAnnotationProcessor:83 - Initialize AndroidAnnotations 3.3.2 with options {phase=BUILD}
+17:51:07.729 [Worker-134] INFO  o.a.AndroidAnnotationProcessor:107 - Start processing for 1 annotations on 1 elements
+17:51:07.729 [Worker-134] DEBUG o.a.h.AndroidManifestFinder:137 - AndroidManifest.xml file found in parent folder E:\month_workspace\MobilSafe\MobileSafe: E:\month_workspace\MobilSafe\MobileSafe\AndroidManifest.xml
+17:51:07.778 [Worker-134] INFO  o.a.AndroidAnnotationProcessor:170 - AndroidManifest.xml found: AndroidManifest [applicationPackage=com.phy.mobilesafe, componentQualifiedNames=[com.phy.mobilesafe.activity.SplashActivity_, com.phy.mobilesafe.activity.HomeActivity_, com.phy.mobilesafe.activity.SettingActivity_, com.phy.mobilesafe.activity.LostFindActivity, com.phy.mobilesafe.activity.Setup1Activity_, com.phy.mobilesafe.activity.Setup2Activity_, com.phy.mobilesafe.activity.Setup3Activity_, com.phy.mobilesafe.activity.Setup4Activity_], permissionQualifiedNames=[android.permission.INTERNET, android.permission.WRITE_EXTERNAL_STORAGE], applicationClassName=null, libraryProject=false, debugabble=false, minSdkVersion=14, maxSdkVersion=-1, targetSdkVersion=17]
+17:51:07.779 [Worker-134] INFO  o.a.r.ProjectRClassFinder:50 - Found project R class: com.phy.mobilesafe.R
+17:51:07.804 [Worker-134] INFO  o.a.r.AndroidRClassFinder:44 - Found Android class: android.R
+17:51:07.844 [Worker-134] INFO  o.a.p.ModelValidator:42 - Validating elements
+17:51:07.844 [Worker-134] DEBUG o.a.p.ModelValidator:62 - Validating with ViewByIdHandler: [ivProtect, tvSafePhone]
+17:51:07.845 [Worker-134] ERROR o.a.h.AnnotationHelper:128 - @org.androidannotations.annotations.ViewById can only be used in a class annotated with @org.androidannotations.annotations.EActivity, @org.androidannotations.annotations.EViewGroup, @org.androidannotations.annotations.EView, @org.androidannotations.annotations.EBean, @org.androidannotations.annotations.EFragment.
+17:51:07.847 [Worker-134] WARN  o.a.p.ModelValidator:69 - Element ViewByIdHandler unvalidated by 
+17:51:07.847 [Worker-134] ERROR o.a.h.AnnotationHelper:128 - @org.androidannotations.annotations.ViewById can only be used in a class annotated with @org.androidannotations.annotations.EActivity, @org.androidannotations.annotations.EViewGroup, @org.androidannotations.annotations.EView, @org.androidannotations.annotations.EBean, @org.androidannotations.annotations.EFragment.
+17:51:07.848 [Worker-134] WARN  o.a.p.ModelValidator:69 - Element ViewByIdHandler unvalidated by 
+17:51:07.848 [Worker-134] INFO  o.a.p.ModelProcessor:74 - Processing root elements
+17:51:07.849 [Worker-134] INFO  o.a.p.ModelProcessor:86 - Processing enclosed elements
+17:51:07.849 [Worker-134] INFO  o.a.AndroidAnnotationProcessor:249 - Number of files generated by AndroidAnnotations: 0
+17:51:07.850 [Worker-134] INFO  o.a.g.ApiCodeGenerator:52 - Writting following API classes in project: []
+17:51:07.850 [Worker-134] INFO  o.a.p.TimeStats:81 - Time measurements: [Whole Processing = 122 ms], [Find R Classes = 64 ms], [Extract Manifest = 49 ms], [Validate Annotations = 4 ms], [Process Annotations = 1 ms], [Generate Sources = 1 ms], [Extract Annotations = 0 ms], 
+17:51:07.851 [Worker-134] INFO  o.a.AndroidAnnotationProcessor:121 - Finish processing
+17:53:21.625 [Worker-134] INFO  o.a.AndroidAnnotationProcessor:83 - Initialize AndroidAnnotations 3.3.2 with options {phase=BUILD}
+17:53:21.627 [Worker-134] INFO  o.a.AndroidAnnotationProcessor:107 - Start processing for 2 annotations on 2 elements
+17:53:21.629 [Worker-134] DEBUG o.a.h.AndroidManifestFinder:137 - AndroidManifest.xml file found in parent folder E:\month_workspace\MobilSafe\MobileSafe: E:\month_workspace\MobilSafe\MobileSafe\AndroidManifest.xml
+17:53:21.632 [Worker-134] INFO  o.a.AndroidAnnotationProcessor:170 - AndroidManifest.xml found: AndroidManifest [applicationPackage=com.phy.mobilesafe, componentQualifiedNames=[com.phy.mobilesafe.activity.SplashActivity_, com.phy.mobilesafe.activity.HomeActivity_, com.phy.mobilesafe.activity.SettingActivity_, com.phy.mobilesafe.activity.LostFindActivity, com.phy.mobilesafe.activity.Setup1Activity_, com.phy.mobilesafe.activity.Setup2Activity_, com.phy.mobilesafe.activity.Setup3Activity_, com.phy.mobilesafe.activity.Setup4Activity_], permissionQualifiedNames=[android.permission.INTERNET, android.permission.WRITE_EXTERNAL_STORAGE], applicationClassName=null, libraryProject=false, debugabble=false, minSdkVersion=14, maxSdkVersion=-1, targetSdkVersion=17]
+17:53:21.632 [Worker-134] INFO  o.a.r.ProjectRClassFinder:50 - Found project R class: com.phy.mobilesafe.R
+17:53:21.634 [Worker-134] INFO  o.a.r.AndroidRClassFinder:44 - Found Android class: android.R
+17:53:21.662 [Worker-134] INFO  o.a.p.ModelValidator:42 - Validating elements
+17:53:21.662 [Worker-134] DEBUG o.a.p.ModelValidator:62 - Validating with ViewByIdHandler: [tvSafePhone, ivProtect]
+17:53:21.663 [Worker-134] ERROR o.a.h.AnnotationHelper:128 - @org.androidannotations.annotations.ViewById can only be used in a class annotated with @org.androidannotations.annotations.EActivity, @org.androidannotations.annotations.EViewGroup, @org.androidannotations.annotations.EView, @org.androidannotations.annotations.EBean, @org.androidannotations.annotations.EFragment.
+17:53:21.663 [Worker-134] WARN  o.a.p.ModelValidator:69 - Element ViewByIdHandler unvalidated by 
+17:53:21.663 [Worker-134] ERROR o.a.h.AnnotationHelper:128 - @org.androidannotations.annotations.ViewById can only be used in a class annotated with @org.androidannotations.annotations.EActivity, @org.androidannotations.annotations.EViewGroup, @org.androidannotations.annotations.EView, @org.androidannotations.annotations.EBean, @org.androidannotations.annotations.EFragment.
+17:53:21.664 [Worker-134] WARN  o.a.p.ModelValidator:69 - Element ViewByIdHandler unvalidated by 
+17:53:21.664 [Worker-134] DEBUG o.a.p.ModelValidator:62 - Validating with AfterViewsHandler: [void readAndConfigShared() ]
+17:53:21.664 [Worker-134] ERROR o.a.h.AnnotationHelper:128 - @org.androidannotations.annotations.AfterViews can only be used in a class annotated with @org.androidannotations.annotations.EActivity, @org.androidannotations.annotations.EViewGroup, @org.androidannotations.annotations.EView, @org.androidannotations.annotations.EBean, @org.androidannotations.annotations.EFragment.
+17:53:21.665 [Worker-134] WARN  o.a.p.ModelValidator:69 - Element AfterViewsHandler unvalidated by 
+17:53:21.665 [Worker-134] INFO  o.a.p.ModelProcessor:74 - Processing root elements
+17:53:21.665 [Worker-134] INFO  o.a.p.ModelProcessor:86 - Processing enclosed elements
+17:53:21.666 [Worker-134] INFO  o.a.AndroidAnnotationProcessor:249 - Number of files generated by AndroidAnnotations: 0
+17:53:21.666 [Worker-134] INFO  o.a.g.ApiCodeGenerator:52 - Writting following API classes in project: []
+17:53:21.666 [Worker-134] INFO  o.a.p.TimeStats:81 - Time measurements: [Whole Processing = 39 ms], [Find R Classes = 29 ms], [Extract Manifest = 3 ms], [Validate Annotations = 3 ms], [Extract Annotations = 1 ms], [Process Annotations = 1 ms], [Generate Sources = 0 ms], 
+17:53:21.667 [Worker-134] INFO  o.a.AndroidAnnotationProcessor:121 - Finish processing
+17:53:30.370 [Worker-131] INFO  o.a.AndroidAnnotationProcessor:83 - Initialize AndroidAnnotations 3.3.2 with options {phase=BUILD}
+17:53:30.372 [Worker-131] INFO  o.a.AndroidAnnotationProcessor:107 - Start processing for 3 annotations on 2 elements
+17:53:30.374 [Worker-131] DEBUG o.a.h.AndroidManifestFinder:137 - AndroidManifest.xml file found in parent folder E:\month_workspace\MobilSafe\MobileSafe: E:\month_workspace\MobilSafe\MobileSafe\AndroidManifest.xml
+17:53:30.377 [Worker-131] INFO  o.a.AndroidAnnotationProcessor:170 - AndroidManifest.xml found: AndroidManifest [applicationPackage=com.phy.mobilesafe, componentQualifiedNames=[com.phy.mobilesafe.activity.SplashActivity_, com.phy.mobilesafe.activity.HomeActivity_, com.phy.mobilesafe.activity.SettingActivity_, com.phy.mobilesafe.activity.LostFindActivity, com.phy.mobilesafe.activity.Setup1Activity_, com.phy.mobilesafe.activity.Setup2Activity_, com.phy.mobilesafe.activity.Setup3Activity_, com.phy.mobilesafe.activity.Setup4Activity_], permissionQualifiedNames=[android.permission.INTERNET, android.permission.WRITE_EXTERNAL_STORAGE], applicationClassName=null, libraryProject=false, debugabble=false, minSdkVersion=14, maxSdkVersion=-1, targetSdkVersion=17]
+17:53:30.377 [Worker-131] INFO  o.a.r.ProjectRClassFinder:50 - Found project R class: com.phy.mobilesafe.R
+17:53:30.378 [Worker-131] INFO  o.a.r.AndroidRClassFinder:44 - Found Android class: android.R
+17:53:30.429 [Worker-131] INFO  o.a.p.ModelValidator:42 - Validating elements
+17:53:30.429 [Worker-131] DEBUG o.a.p.ModelValidator:62 - Validating with EActivityHandler: [com.phy.mobilesafe.activity.LostFindActivity]
+17:53:30.430 [Worker-131] ERROR o.a.h.AnnotationHelper:128 - The AndroidManifest.xml file contains the original component, and not the AndroidAnnotations generated component. Please register LostFindActivity_ instead of LostFindActivity
+17:53:30.430 [Worker-131] WARN  o.a.p.ModelValidator:69 - Element EActivityHandler unvalidated by 
+17:53:30.431 [Worker-131] DEBUG o.a.p.ModelValidator:62 - Validating with ViewByIdHandler: [tvSafePhone, ivProtect]
+17:53:30.432 [Worker-131] DEBUG o.a.p.ModelValidator:62 - Validating with AfterViewsHandler: [void readAndConfigShared() ]
+17:53:30.433 [Worker-131] INFO  o.a.p.ModelProcessor:74 - Processing root elements
+17:53:30.433 [Worker-131] INFO  o.a.p.ModelProcessor:86 - Processing enclosed elements
+17:53:30.434 [Worker-131] INFO  o.a.AndroidAnnotationProcessor:249 - Number of files generated by AndroidAnnotations: 0
+17:53:30.434 [Worker-131] INFO  o.a.g.ApiCodeGenerator:52 - Writting following API classes in project: []
+17:53:30.435 [Worker-131] INFO  o.a.p.TimeStats:81 - Time measurements: [Whole Processing = 63 ms], [Find R Classes = 51 ms], [Extract Manifest = 4 ms], [Validate Annotations = 3 ms], [Process Annotations = 2 ms], [Generate Sources = 1 ms], [Extract Annotations = 0 ms], 
+17:53:30.435 [Worker-131] INFO  o.a.AndroidAnnotationProcessor:121 - Finish processing
+17:53:55.716 [Worker-133] INFO  o.a.AndroidAnnotationProcessor:83 - Initialize AndroidAnnotations 3.3.2 with options {phase=BUILD}
+17:54:01.478 [Worker-136] INFO  o.a.AndroidAnnotationProcessor:83 - Initialize AndroidAnnotations 3.3.2 with options {phase=BUILD}
+17:54:01.480 [Worker-136] INFO  o.a.AndroidAnnotationProcessor:107 - Start processing for 3 annotations on 2 elements
+17:54:01.481 [Worker-136] DEBUG o.a.h.AndroidManifestFinder:137 - AndroidManifest.xml file found in parent folder E:\month_workspace\MobilSafe\MobileSafe: E:\month_workspace\MobilSafe\MobileSafe\AndroidManifest.xml
+17:54:01.484 [Worker-136] INFO  o.a.AndroidAnnotationProcessor:170 - AndroidManifest.xml found: AndroidManifest [applicationPackage=com.phy.mobilesafe, componentQualifiedNames=[com.phy.mobilesafe.activity.SplashActivity_, com.phy.mobilesafe.activity.HomeActivity_, com.phy.mobilesafe.activity.SettingActivity_, com.phy.mobilesafe.activity.LostFindActivity_, com.phy.mobilesafe.activity.Setup1Activity_, com.phy.mobilesafe.activity.Setup2Activity_, com.phy.mobilesafe.activity.Setup3Activity_, com.phy.mobilesafe.activity.Setup4Activity_], permissionQualifiedNames=[android.permission.INTERNET, android.permission.WRITE_EXTERNAL_STORAGE], applicationClassName=null, libraryProject=false, debugabble=false, minSdkVersion=14, maxSdkVersion=-1, targetSdkVersion=17]
+17:54:01.485 [Worker-136] INFO  o.a.r.ProjectRClassFinder:50 - Found project R class: com.phy.mobilesafe.R
+17:54:01.486 [Worker-136] INFO  o.a.r.AndroidRClassFinder:44 - Found Android class: android.R
+17:54:01.517 [Worker-136] INFO  o.a.p.ModelValidator:42 - Validating elements
+17:54:01.518 [Worker-136] DEBUG o.a.p.ModelValidator:62 - Validating with EActivityHandler: [com.phy.mobilesafe.activity.LostFindActivity]
+17:54:01.519 [Worker-136] DEBUG o.a.p.ModelValidator:62 - Validating with ViewByIdHandler: [ivProtect, tvSafePhone]
+17:54:01.520 [Worker-136] DEBUG o.a.p.ModelValidator:62 - Validating with AfterViewsHandler: [void readAndConfigShared() ]
+17:54:01.521 [Worker-136] INFO  o.a.p.ModelProcessor:74 - Processing root elements
+17:54:01.522 [Worker-136] DEBUG o.a.p.ModelProcessor:176 - Processing root elements EActivityHandler: [com.phy.mobilesafe.activity.LostFindActivity]
+17:54:01.540 [Worker-136] INFO  o.a.p.ModelProcessor:86 - Processing enclosed elements
+17:54:01.541 [Worker-136] INFO  o.a.AndroidAnnotationProcessor:249 - Number of files generated by AndroidAnnotations: 1
+17:54:01.542 [Worker-136] INFO  o.a.g.ApiCodeGenerator:52 - Writting following API classes in project: []
+17:54:01.542 [Worker-136] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.phy.mobilesafe.activity.LostFindActivity_
+17:54:01.549 [Worker-136] INFO  o.a.p.TimeStats:81 - Time measurements: [Whole Processing = 69 ms], [Find R Classes = 32 ms], [Process Annotations = 20 ms], [Generate Sources = 8 ms], [Validate Annotations = 4 ms], [Extract Manifest = 3 ms], [Extract Annotations = 1 ms], 
+17:54:01.550 [Worker-136] INFO  o.a.AndroidAnnotationProcessor:121 - Finish processing
+17:54:17.432 [Worker-137] INFO  o.a.AndroidAnnotationProcessor:83 - Initialize AndroidAnnotations 3.3.2 with options {phase=BUILD}
+17:54:17.434 [Worker-137] INFO  o.a.AndroidAnnotationProcessor:107 - Start processing for 2 annotations on 1 elements
+17:54:17.437 [Worker-137] DEBUG o.a.h.AndroidManifestFinder:137 - AndroidManifest.xml file found in parent folder E:\month_workspace\MobilSafe\MobileSafe: E:\month_workspace\MobilSafe\MobileSafe\AndroidManifest.xml
+17:54:17.440 [Worker-137] INFO  o.a.AndroidAnnotationProcessor:170 - AndroidManifest.xml found: AndroidManifest [applicationPackage=com.phy.mobilesafe, componentQualifiedNames=[com.phy.mobilesafe.activity.SplashActivity_, com.phy.mobilesafe.activity.HomeActivity_, com.phy.mobilesafe.activity.SettingActivity_, com.phy.mobilesafe.activity.LostFindActivity_, com.phy.mobilesafe.activity.Setup1Activity_, com.phy.mobilesafe.activity.Setup2Activity_, com.phy.mobilesafe.activity.Setup3Activity_, com.phy.mobilesafe.activity.Setup4Activity_], permissionQualifiedNames=[android.permission.INTERNET, android.permission.WRITE_EXTERNAL_STORAGE], applicationClassName=null, libraryProject=false, debugabble=false, minSdkVersion=14, maxSdkVersion=-1, targetSdkVersion=17]
+17:54:17.441 [Worker-137] INFO  o.a.r.ProjectRClassFinder:50 - Found project R class: com.phy.mobilesafe.R
+17:54:17.444 [Worker-137] INFO  o.a.r.AndroidRClassFinder:44 - Found Android class: android.R
+17:54:17.472 [Worker-137] INFO  o.a.p.ModelValidator:42 - Validating elements
+17:54:17.472 [Worker-137] DEBUG o.a.p.ModelValidator:62 - Validating with EActivityHandler: [com.phy.mobilesafe.activity.Setup4Activity]
+17:54:17.473 [Worker-137] DEBUG o.a.p.ModelValidator:62 - Validating with AfterViewsHandler: [void ConfigSharedPre() ]
+17:54:17.474 [Worker-137] INFO  o.a.p.ModelProcessor:74 - Processing root elements
+17:54:17.474 [Worker-137] DEBUG o.a.p.ModelProcessor:176 - Processing root elements EActivityHandler: [com.phy.mobilesafe.activity.Setup4Activity]
+17:54:17.505 [Worker-137] INFO  o.a.p.ModelProcessor:86 - Processing enclosed elements
+17:54:17.506 [Worker-137] INFO  o.a.AndroidAnnotationProcessor:249 - Number of files generated by AndroidAnnotations: 1
+17:54:17.506 [Worker-137] INFO  o.a.g.ApiCodeGenerator:52 - Writting following API classes in project: []
+17:54:17.507 [Worker-137] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.phy.mobilesafe.activity.Setup4Activity_
+17:54:17.509 [Worker-137] INFO  o.a.p.TimeStats:81 - Time measurements: [Whole Processing = 75 ms], [Process Annotations = 32 ms], [Find R Classes = 31 ms], [Extract Manifest = 3 ms], [Generate Sources = 3 ms], [Extract Annotations = 2 ms], [Validate Annotations = 2 ms], 
+17:54:17.509 [Worker-137] INFO  o.a.AndroidAnnotationProcessor:121 - Finish processing
+17:54:49.444 [Worker-132] INFO  o.a.AndroidAnnotationProcessor:83 - Initialize AndroidAnnotations 3.3.2 with options {phase=BUILD}
+17:54:49.446 [Worker-132] INFO  o.a.AndroidAnnotationProcessor:107 - Start processing for 4 annotations on 1 elements
+17:54:49.447 [Worker-132] DEBUG o.a.h.AndroidManifestFinder:137 - AndroidManifest.xml file found in parent folder E:\month_workspace\MobilSafe\MobileSafe: E:\month_workspace\MobilSafe\MobileSafe\AndroidManifest.xml
+17:54:49.450 [Worker-132] INFO  o.a.AndroidAnnotationProcessor:170 - AndroidManifest.xml found: AndroidManifest [applicationPackage=com.phy.mobilesafe, componentQualifiedNames=[com.phy.mobilesafe.activity.SplashActivity_, com.phy.mobilesafe.activity.HomeActivity_, com.phy.mobilesafe.activity.SettingActivity_, com.phy.mobilesafe.activity.LostFindActivity_, com.phy.mobilesafe.activity.Setup1Activity_, com.phy.mobilesafe.activity.Setup2Activity_, com.phy.mobilesafe.activity.Setup3Activity_, com.phy.mobilesafe.activity.Setup4Activity_], permissionQualifiedNames=[android.permission.INTERNET, android.permission.WRITE_EXTERNAL_STORAGE], applicationClassName=null, libraryProject=false, debugabble=false, minSdkVersion=14, maxSdkVersion=-1, targetSdkVersion=17]
+17:54:49.451 [Worker-132] INFO  o.a.r.ProjectRClassFinder:50 - Found project R class: com.phy.mobilesafe.R
+17:54:49.454 [Worker-132] INFO  o.a.r.AndroidRClassFinder:44 - Found Android class: android.R
+17:54:49.482 [Worker-132] INFO  o.a.p.ModelValidator:42 - Validating elements
+17:54:49.483 [Worker-132] DEBUG o.a.p.ModelValidator:62 - Validating with EActivityHandler: [com.phy.mobilesafe.activity.HomeActivity]
+17:54:49.484 [Worker-132] DEBUG o.a.p.ModelValidator:62 - Validating with ViewByIdHandler: [gvHome]
+17:54:49.485 [Worker-132] DEBUG o.a.p.ModelValidator:62 - Validating with ItemClickHandler: [public void gvHomeItemClicked(int) ]
+17:54:49.486 [Worker-132] DEBUG o.a.p.ModelValidator:62 - Validating with AfterViewsHandler: [void updateViewWithDate() ]
+17:54:49.487 [Worker-132] INFO  o.a.p.ModelProcessor:74 - Processing root elements
+17:54:49.488 [Worker-132] DEBUG o.a.p.ModelProcessor:176 - Processing root elements EActivityHandler: [com.phy.mobilesafe.activity.HomeActivity]
+17:54:49.502 [Worker-132] INFO  o.a.p.ModelProcessor:86 - Processing enclosed elements
+17:54:49.504 [Worker-132] INFO  o.a.AndroidAnnotationProcessor:249 - Number of files generated by AndroidAnnotations: 1
+17:54:49.504 [Worker-132] INFO  o.a.g.ApiCodeGenerator:52 - Writting following API classes in project: []
+17:54:49.504 [Worker-132] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.phy.mobilesafe.activity.HomeActivity_
+17:54:49.507 [Worker-132] INFO  o.a.p.TimeStats:81 - Time measurements: [Whole Processing = 61 ms], [Find R Classes = 31 ms], [Process Annotations = 17 ms], [Validate Annotations = 5 ms], [Extract Manifest = 3 ms], [Generate Sources = 3 ms], [Extract Annotations = 0 ms], 
+17:54:49.507 [Worker-132] INFO  o.a.AndroidAnnotationProcessor:121 - Finish processing
+17:56:18.805 [Worker-132] INFO  o.a.AndroidAnnotationProcessor:83 - Initialize AndroidAnnotations 3.3.2 with options {phase=BUILD}
+17:56:18.806 [Worker-132] INFO  o.a.AndroidAnnotationProcessor:107 - Start processing for 3 annotations on 1 elements
+17:56:18.807 [Worker-132] DEBUG o.a.h.AndroidManifestFinder:137 - AndroidManifest.xml file found in parent folder E:\month_workspace\MobilSafe\MobileSafe: E:\month_workspace\MobilSafe\MobileSafe\AndroidManifest.xml
+17:56:18.810 [Worker-132] INFO  o.a.AndroidAnnotationProcessor:170 - AndroidManifest.xml found: AndroidManifest [applicationPackage=com.phy.mobilesafe, componentQualifiedNames=[com.phy.mobilesafe.activity.SplashActivity_, com.phy.mobilesafe.activity.HomeActivity_, com.phy.mobilesafe.activity.SettingActivity_, com.phy.mobilesafe.activity.LostFindActivity_, com.phy.mobilesafe.activity.Setup1Activity_, com.phy.mobilesafe.activity.Setup2Activity_, com.phy.mobilesafe.activity.Setup3Activity_, com.phy.mobilesafe.activity.Setup4Activity_], permissionQualifiedNames=[android.permission.INTERNET, android.permission.WRITE_EXTERNAL_STORAGE], applicationClassName=null, libraryProject=false, debugabble=false, minSdkVersion=14, maxSdkVersion=-1, targetSdkVersion=17]
+17:56:18.811 [Worker-132] INFO  o.a.r.ProjectRClassFinder:50 - Found project R class: com.phy.mobilesafe.R
+17:56:18.814 [Worker-132] INFO  o.a.r.AndroidRClassFinder:44 - Found Android class: android.R
+17:56:18.844 [Worker-132] INFO  o.a.p.ModelValidator:42 - Validating elements
+17:56:18.845 [Worker-132] DEBUG o.a.p.ModelValidator:62 - Validating with EActivityHandler: [com.phy.mobilesafe.activity.LostFindActivity]
+17:56:18.846 [Worker-132] DEBUG o.a.p.ModelValidator:62 - Validating with ViewByIdHandler: [ivProtect, tvSafePhone]
+17:56:18.847 [Worker-132] DEBUG o.a.p.ModelValidator:62 - Validating with AfterViewsHandler: [void readAndConfigShared() ]
+17:56:18.847 [Worker-132] INFO  o.a.p.ModelProcessor:74 - Processing root elements
+17:56:18.848 [Worker-132] DEBUG o.a.p.ModelProcessor:176 - Processing root elements EActivityHandler: [com.phy.mobilesafe.activity.LostFindActivity]
+17:56:18.862 [Worker-132] INFO  o.a.p.ModelProcessor:86 - Processing enclosed elements
+17:56:18.862 [Worker-132] INFO  o.a.AndroidAnnotationProcessor:249 - Number of files generated by AndroidAnnotations: 1
+17:56:18.863 [Worker-132] INFO  o.a.g.ApiCodeGenerator:52 - Writting following API classes in project: []
+17:56:18.863 [Worker-132] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.phy.mobilesafe.activity.LostFindActivity_
+17:56:18.868 [Worker-132] INFO  o.a.p.TimeStats:81 - Time measurements: [Whole Processing = 62 ms], [Find R Classes = 33 ms], [Process Annotations = 15 ms], [Generate Sources = 6 ms], [Extract Manifest = 3 ms], [Validate Annotations = 3 ms], [Extract Annotations = 0 ms], 
+17:56:18.869 [Worker-132] INFO  o.a.AndroidAnnotationProcessor:121 - Finish processing
+17:56:25.632 [Worker-131] INFO  o.a.AndroidAnnotationProcessor:83 - Initialize AndroidAnnotations 3.3.2 with options {phase=BUILD}
+17:56:25.633 [Worker-131] INFO  o.a.AndroidAnnotationProcessor:107 - Start processing for 3 annotations on 2 elements
+17:56:25.635 [Worker-131] DEBUG o.a.h.AndroidManifestFinder:137 - AndroidManifest.xml file found in parent folder E:\month_workspace\MobilSafe\MobileSafe: E:\month_workspace\MobilSafe\MobileSafe\AndroidManifest.xml
+17:56:25.638 [Worker-131] INFO  o.a.AndroidAnnotationProcessor:170 - AndroidManifest.xml found: AndroidManifest [applicationPackage=com.phy.mobilesafe, componentQualifiedNames=[com.phy.mobilesafe.activity.SplashActivity_, com.phy.mobilesafe.activity.HomeActivity_, com.phy.mobilesafe.activity.SettingActivity_, com.phy.mobilesafe.activity.LostFindActivity_, com.phy.mobilesafe.activity.Setup1Activity_, com.phy.mobilesafe.activity.Setup2Activity_, com.phy.mobilesafe.activity.Setup3Activity_, com.phy.mobilesafe.activity.Setup4Activity_], permissionQualifiedNames=[android.permission.INTERNET, android.permission.WRITE_EXTERNAL_STORAGE], applicationClassName=null, libraryProject=false, debugabble=false, minSdkVersion=14, maxSdkVersion=-1, targetSdkVersion=17]
+17:56:25.638 [Worker-131] INFO  o.a.r.ProjectRClassFinder:50 - Found project R class: com.phy.mobilesafe.R
+17:56:25.640 [Worker-131] INFO  o.a.r.AndroidRClassFinder:44 - Found Android class: android.R
+17:56:25.669 [Worker-131] INFO  o.a.p.ModelValidator:42 - Validating elements
+17:56:25.670 [Worker-131] DEBUG o.a.p.ModelValidator:62 - Validating with EActivityHandler: [com.phy.mobilesafe.activity.LostFindActivity]
+17:56:25.671 [Worker-131] DEBUG o.a.p.ModelValidator:62 - Validating with ViewByIdHandler: [tvSafePhone, ivProtect]
+17:56:25.672 [Worker-131] DEBUG o.a.p.ModelValidator:62 - Validating with AfterViewsHandler: [void readAndConfigShared() ]
+17:56:25.672 [Worker-131] INFO  o.a.p.ModelProcessor:74 - Processing root elements
+17:56:25.673 [Worker-131] DEBUG o.a.p.ModelProcessor:176 - Processing root elements EActivityHandler: [com.phy.mobilesafe.activity.LostFindActivity]
+17:56:25.687 [Worker-131] INFO  o.a.p.ModelProcessor:86 - Processing enclosed elements
+17:56:25.688 [Worker-131] INFO  o.a.AndroidAnnotationProcessor:249 - Number of files generated by AndroidAnnotations: 1
+17:56:25.689 [Worker-131] INFO  o.a.g.ApiCodeGenerator:52 - Writting following API classes in project: []
+17:56:25.689 [Worker-131] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.phy.mobilesafe.activity.LostFindActivity_
+17:56:25.697 [Worker-131] INFO  o.a.p.TimeStats:81 - Time measurements: [Whole Processing = 64 ms], [Find R Classes = 31 ms], [Process Annotations = 16 ms], [Generate Sources = 9 ms], [Extract Manifest = 3 ms], [Validate Annotations = 3 ms], [Extract Annotations = 1 ms], 
+17:56:25.698 [Worker-131] INFO  o.a.AndroidAnnotationProcessor:121 - Finish processing
+17:56:52.367 [Worker-131] INFO  o.a.AndroidAnnotationProcessor:83 - Initialize AndroidAnnotations 3.3.2 with options {phase=BUILD}
+17:56:52.368 [Worker-131] INFO  o.a.AndroidAnnotationProcessor:107 - Start processing for 3 annotations on 1 elements
+17:56:52.369 [Worker-131] DEBUG o.a.h.AndroidManifestFinder:137 - AndroidManifest.xml file found in parent folder E:\month_workspace\MobilSafe\MobileSafe: E:\month_workspace\MobilSafe\MobileSafe\AndroidManifest.xml
+17:56:52.371 [Worker-131] INFO  o.a.AndroidAnnotationProcessor:170 - AndroidManifest.xml found: AndroidManifest [applicationPackage=com.phy.mobilesafe, componentQualifiedNames=[com.phy.mobilesafe.activity.SplashActivity_, com.phy.mobilesafe.activity.HomeActivity_, com.phy.mobilesafe.activity.SettingActivity_, com.phy.mobilesafe.activity.LostFindActivity_, com.phy.mobilesafe.activity.Setup1Activity_, com.phy.mobilesafe.activity.Setup2Activity_, com.phy.mobilesafe.activity.Setup3Activity_, com.phy.mobilesafe.activity.Setup4Activity_], permissionQualifiedNames=[android.permission.INTERNET, android.permission.WRITE_EXTERNAL_STORAGE], applicationClassName=null, libraryProject=false, debugabble=false, minSdkVersion=14, maxSdkVersion=-1, targetSdkVersion=17]
+17:56:52.372 [Worker-131] INFO  o.a.r.ProjectRClassFinder:50 - Found project R class: com.phy.mobilesafe.R
+17:56:52.375 [Worker-131] INFO  o.a.r.AndroidRClassFinder:44 - Found Android class: android.R
+17:56:52.405 [Worker-131] INFO  o.a.p.ModelValidator:42 - Validating elements
+17:56:52.405 [Worker-131] DEBUG o.a.p.ModelValidator:62 - Validating with EActivityHandler: [com.phy.mobilesafe.activity.LostFindActivity]
+17:56:52.406 [Worker-131] DEBUG o.a.p.ModelValidator:62 - Validating with ViewByIdHandler: [ivProtect, tvSafePhone]
+17:56:52.407 [Worker-131] DEBUG o.a.p.ModelValidator:62 - Validating with AfterViewsHandler: [void readAndConfigShared() ]
+17:56:52.407 [Worker-131] INFO  o.a.p.ModelProcessor:74 - Processing root elements
+17:56:52.408 [Worker-131] DEBUG o.a.p.ModelProcessor:176 - Processing root elements EActivityHandler: [com.phy.mobilesafe.activity.LostFindActivity]
+17:56:52.421 [Worker-131] INFO  o.a.p.ModelProcessor:86 - Processing enclosed elements
+17:56:52.422 [Worker-131] INFO  o.a.AndroidAnnotationProcessor:249 - Number of files generated by AndroidAnnotations: 1
+17:56:52.422 [Worker-131] INFO  o.a.g.ApiCodeGenerator:52 - Writting following API classes in project: []
+17:56:52.423 [Worker-131] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.phy.mobilesafe.activity.LostFindActivity_
+17:56:52.431 [Worker-131] INFO  o.a.p.TimeStats:81 - Time measurements: [Whole Processing = 63 ms], [Find R Classes = 33 ms], [Process Annotations = 15 ms], [Generate Sources = 9 ms], [Extract Manifest = 3 ms], [Validate Annotations = 2 ms], [Extract Annotations = 0 ms], 
+17:56:52.431 [Worker-131] INFO  o.a.AndroidAnnotationProcessor:121 - Finish processing
+17:57:30.708 [Worker-133] INFO  o.a.AndroidAnnotationProcessor:83 - Initialize AndroidAnnotations 3.3.2 with options {phase=BUILD}
+17:57:30.710 [Worker-133] INFO  o.a.AndroidAnnotationProcessor:107 - Start processing for 3 annotations on 1 elements
+17:57:30.710 [Worker-133] DEBUG o.a.h.AndroidManifestFinder:137 - AndroidManifest.xml file found in parent folder E:\month_workspace\MobilSafe\MobileSafe: E:\month_workspace\MobilSafe\MobileSafe\AndroidManifest.xml
+17:57:30.713 [Worker-133] INFO  o.a.AndroidAnnotationProcessor:170 - AndroidManifest.xml found: AndroidManifest [applicationPackage=com.phy.mobilesafe, componentQualifiedNames=[com.phy.mobilesafe.activity.SplashActivity_, com.phy.mobilesafe.activity.HomeActivity_, com.phy.mobilesafe.activity.SettingActivity_, com.phy.mobilesafe.activity.LostFindActivity_, com.phy.mobilesafe.activity.Setup1Activity_, com.phy.mobilesafe.activity.Setup2Activity_, com.phy.mobilesafe.activity.Setup3Activity_, com.phy.mobilesafe.activity.Setup4Activity_], permissionQualifiedNames=[android.permission.INTERNET, android.permission.WRITE_EXTERNAL_STORAGE], applicationClassName=null, libraryProject=false, debugabble=false, minSdkVersion=14, maxSdkVersion=-1, targetSdkVersion=17]
+17:57:30.713 [Worker-133] INFO  o.a.r.ProjectRClassFinder:50 - Found project R class: com.phy.mobilesafe.R
+17:57:30.717 [Worker-133] INFO  o.a.r.AndroidRClassFinder:44 - Found Android class: android.R
+17:57:30.744 [Worker-133] INFO  o.a.p.ModelValidator:42 - Validating elements
+17:57:30.745 [Worker-133] DEBUG o.a.p.ModelValidator:62 - Validating with EActivityHandler: [com.phy.mobilesafe.activity.LostFindActivity]
+17:57:30.745 [Worker-133] DEBUG o.a.p.ModelValidator:62 - Validating with ViewByIdHandler: [tvSafePhone, ivProtect]
+17:57:30.747 [Worker-133] DEBUG o.a.p.ModelValidator:62 - Validating with AfterViewsHandler: [void readAndConfigShared() ]
+17:57:30.747 [Worker-133] INFO  o.a.p.ModelProcessor:74 - Processing root elements
+17:57:30.748 [Worker-133] DEBUG o.a.p.ModelProcessor:176 - Processing root elements EActivityHandler: [com.phy.mobilesafe.activity.LostFindActivity]
+17:57:30.762 [Worker-133] INFO  o.a.p.ModelProcessor:86 - Processing enclosed elements
+17:57:30.763 [Worker-133] INFO  o.a.AndroidAnnotationProcessor:249 - Number of files generated by AndroidAnnotations: 1
+17:57:30.763 [Worker-133] INFO  o.a.g.ApiCodeGenerator:52 - Writting following API classes in project: []
+17:57:30.764 [Worker-133] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.phy.mobilesafe.activity.LostFindActivity_
+17:57:30.771 [Worker-133] INFO  o.a.p.TimeStats:81 - Time measurements: [Whole Processing = 61 ms], [Find R Classes = 31 ms], [Process Annotations = 16 ms], [Generate Sources = 8 ms], [Extract Manifest = 3 ms], [Validate Annotations = 3 ms], [Extract Annotations = 0 ms], 
+17:57:30.772 [Worker-133] INFO  o.a.AndroidAnnotationProcessor:121 - Finish processing
+17:58:41.509 [Worker-133] INFO  o.a.AndroidAnnotationProcessor:83 - Initialize AndroidAnnotations 3.3.2 with options {phase=BUILD}
+17:58:41.510 [Worker-133] INFO  o.a.AndroidAnnotationProcessor:107 - Start processing for 3 annotations on 1 elements
+17:58:41.511 [Worker-133] DEBUG o.a.h.AndroidManifestFinder:137 - AndroidManifest.xml file found in parent folder E:\month_workspace\MobilSafe\MobileSafe: E:\month_workspace\MobilSafe\MobileSafe\AndroidManifest.xml
+17:58:41.515 [Worker-133] INFO  o.a.AndroidAnnotationProcessor:170 - AndroidManifest.xml found: AndroidManifest [applicationPackage=com.phy.mobilesafe, componentQualifiedNames=[com.phy.mobilesafe.activity.SplashActivity_, com.phy.mobilesafe.activity.HomeActivity_, com.phy.mobilesafe.activity.SettingActivity_, com.phy.mobilesafe.activity.LostFindActivity_, com.phy.mobilesafe.activity.Setup1Activity_, com.phy.mobilesafe.activity.Setup2Activity_, com.phy.mobilesafe.activity.Setup3Activity_, com.phy.mobilesafe.activity.Setup4Activity_], permissionQualifiedNames=[android.permission.INTERNET, android.permission.WRITE_EXTERNAL_STORAGE], applicationClassName=null, libraryProject=false, debugabble=false, minSdkVersion=14, maxSdkVersion=-1, targetSdkVersion=17]
+17:58:41.515 [Worker-133] INFO  o.a.r.ProjectRClassFinder:50 - Found project R class: com.phy.mobilesafe.R
+17:58:41.519 [Worker-133] INFO  o.a.r.AndroidRClassFinder:44 - Found Android class: android.R
+17:58:41.551 [Worker-133] INFO  o.a.p.ModelValidator:42 - Validating elements
+17:58:41.552 [Worker-133] DEBUG o.a.p.ModelValidator:62 - Validating with EActivityHandler: [com.phy.mobilesafe.activity.LostFindActivity]
+17:58:41.553 [Worker-133] DEBUG o.a.p.ModelValidator:62 - Validating with ViewByIdHandler: [ivProtect, tvSafePhone]
+17:58:41.554 [Worker-133] DEBUG o.a.p.ModelValidator:62 - Validating with AfterViewsHandler: [void readAndConfigShared() ]
+17:58:41.555 [Worker-133] INFO  o.a.p.ModelProcessor:74 - Processing root elements
+17:58:41.555 [Worker-133] DEBUG o.a.p.ModelProcessor:176 - Processing root elements EActivityHandler: [com.phy.mobilesafe.activity.LostFindActivity]
+17:58:41.572 [Worker-133] INFO  o.a.p.ModelProcessor:86 - Processing enclosed elements
+17:58:41.573 [Worker-133] INFO  o.a.AndroidAnnotationProcessor:249 - Number of files generated by AndroidAnnotations: 1
+17:58:41.573 [Worker-133] INFO  o.a.g.ApiCodeGenerator:52 - Writting following API classes in project: []
+17:58:41.574 [Worker-133] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.phy.mobilesafe.activity.LostFindActivity_
+17:58:41.590 [Worker-133] INFO  o.a.p.TimeStats:81 - Time measurements: [Whole Processing = 80 ms], [Find R Classes = 36 ms], [Process Annotations = 19 ms], [Generate Sources = 17 ms], [Extract Manifest = 4 ms], [Validate Annotations = 3 ms], [Extract Annotations = 0 ms], 
+17:58:41.590 [Worker-133] INFO  o.a.AndroidAnnotationProcessor:121 - Finish processing
+18:35:13.455 [Worker-144] INFO  o.a.AndroidAnnotationProcessor:83 - Initialize AndroidAnnotations 3.3.2 with options {phase=BUILD}
+18:35:13.457 [Worker-144] INFO  o.a.AndroidAnnotationProcessor:107 - Start processing for 3 annotations on 1 elements
+18:35:13.459 [Worker-144] DEBUG o.a.h.AndroidManifestFinder:137 - AndroidManifest.xml file found in parent folder E:\month_workspace\MobilSafe\MobileSafe: E:\month_workspace\MobilSafe\MobileSafe\AndroidManifest.xml
+18:35:13.462 [Worker-144] INFO  o.a.AndroidAnnotationProcessor:170 - AndroidManifest.xml found: AndroidManifest [applicationPackage=com.phy.mobilesafe, componentQualifiedNames=[com.phy.mobilesafe.activity.SplashActivity_, com.phy.mobilesafe.activity.HomeActivity_, com.phy.mobilesafe.activity.SettingActivity_, com.phy.mobilesafe.activity.LostFindActivity_, com.phy.mobilesafe.activity.Setup1Activity_, com.phy.mobilesafe.activity.Setup2Activity_, com.phy.mobilesafe.activity.Setup3Activity_, com.phy.mobilesafe.activity.Setup4Activity_], permissionQualifiedNames=[android.permission.INTERNET, android.permission.WRITE_EXTERNAL_STORAGE], applicationClassName=null, libraryProject=false, debugabble=false, minSdkVersion=14, maxSdkVersion=-1, targetSdkVersion=17]
+18:35:13.463 [Worker-144] INFO  o.a.r.ProjectRClassFinder:50 - Found project R class: com.phy.mobilesafe.R
+18:35:13.467 [Worker-144] INFO  o.a.r.AndroidRClassFinder:44 - Found Android class: android.R
+18:35:13.497 [Worker-144] INFO  o.a.p.ModelValidator:42 - Validating elements
+18:35:13.498 [Worker-144] DEBUG o.a.p.ModelValidator:62 - Validating with EActivityHandler: [com.phy.mobilesafe.activity.Setup2Activity]
+18:35:13.499 [Worker-144] DEBUG o.a.p.ModelValidator:62 - Validating with ViewByIdHandler: [sivSim]
+18:35:13.500 [Worker-144] DEBUG o.a.p.ModelValidator:62 - Validating with AfterViewsHandler: [void saveSimCheck() ]
+18:35:13.501 [Worker-144] INFO  o.a.p.ModelProcessor:74 - Processing root elements
+18:35:13.501 [Worker-144] DEBUG o.a.p.ModelProcessor:176 - Processing root elements EActivityHandler: [com.phy.mobilesafe.activity.Setup2Activity]
+18:35:13.516 [Worker-144] INFO  o.a.p.ModelProcessor:86 - Processing enclosed elements
+18:35:13.517 [Worker-144] INFO  o.a.AndroidAnnotationProcessor:249 - Number of files generated by AndroidAnnotations: 1
+18:35:13.518 [Worker-144] INFO  o.a.g.ApiCodeGenerator:52 - Writting following API classes in project: []
+18:35:13.518 [Worker-144] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.phy.mobilesafe.activity.Setup2Activity_
+18:35:13.531 [Worker-144] INFO  o.a.p.TimeStats:81 - Time measurements: [Whole Processing = 73 ms], [Find R Classes = 34 ms], [Process Annotations = 16 ms], [Generate Sources = 13 ms], [Validate Annotations = 4 ms], [Extract Manifest = 3 ms], [Extract Annotations = 1 ms], 
+18:35:13.531 [Worker-144] INFO  o.a.AndroidAnnotationProcessor:121 - Finish processing
+18:35:42.440 [Worker-144] INFO  o.a.AndroidAnnotationProcessor:83 - Initialize AndroidAnnotations 3.3.2 with options {phase=BUILD}
+18:35:42.442 [Worker-144] INFO  o.a.AndroidAnnotationProcessor:107 - Start processing for 3 annotations on 1 elements
+18:35:42.445 [Worker-144] DEBUG o.a.h.AndroidManifestFinder:137 - AndroidManifest.xml file found in parent folder E:\month_workspace\MobilSafe\MobileSafe: E:\month_workspace\MobilSafe\MobileSafe\AndroidManifest.xml
+18:35:42.449 [Worker-144] INFO  o.a.AndroidAnnotationProcessor:170 - AndroidManifest.xml found: AndroidManifest [applicationPackage=com.phy.mobilesafe, componentQualifiedNames=[com.phy.mobilesafe.activity.SplashActivity_, com.phy.mobilesafe.activity.HomeActivity_, com.phy.mobilesafe.activity.SettingActivity_, com.phy.mobilesafe.activity.LostFindActivity_, com.phy.mobilesafe.activity.Setup1Activity_, com.phy.mobilesafe.activity.Setup2Activity_, com.phy.mobilesafe.activity.Setup3Activity_, com.phy.mobilesafe.activity.Setup4Activity_], permissionQualifiedNames=[android.permission.INTERNET, android.permission.WRITE_EXTERNAL_STORAGE], applicationClassName=null, libraryProject=false, debugabble=false, minSdkVersion=14, maxSdkVersion=-1, targetSdkVersion=17]
+18:35:42.450 [Worker-144] INFO  o.a.r.ProjectRClassFinder:50 - Found project R class: com.phy.mobilesafe.R
+18:35:42.455 [Worker-144] INFO  o.a.r.AndroidRClassFinder:44 - Found Android class: android.R
+18:35:42.483 [Worker-144] INFO  o.a.p.ModelValidator:42 - Validating elements
+18:35:42.484 [Worker-144] DEBUG o.a.p.ModelValidator:62 - Validating with EActivityHandler: [com.phy.mobilesafe.activity.Setup2Activity]
+18:35:42.485 [Worker-144] DEBUG o.a.p.ModelValidator:62 - Validating with ViewByIdHandler: [sivSim]
+18:35:42.486 [Worker-144] DEBUG o.a.p.ModelValidator:62 - Validating with AfterViewsHandler: [void saveSimCheck() ]
+18:35:42.487 [Worker-144] INFO  o.a.p.ModelProcessor:74 - Processing root elements
+18:35:42.487 [Worker-144] DEBUG o.a.p.ModelProcessor:176 - Processing root elements EActivityHandler: [com.phy.mobilesafe.activity.Setup2Activity]
+18:35:42.500 [Worker-144] INFO  o.a.p.ModelProcessor:86 - Processing enclosed elements
+18:35:42.501 [Worker-144] INFO  o.a.AndroidAnnotationProcessor:249 - Number of files generated by AndroidAnnotations: 1
+18:35:42.501 [Worker-144] INFO  o.a.g.ApiCodeGenerator:52 - Writting following API classes in project: []
+18:35:42.502 [Worker-144] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.phy.mobilesafe.activity.Setup2Activity_
+18:35:42.504 [Worker-144] INFO  o.a.p.TimeStats:81 - Time measurements: [Whole Processing = 62 ms], [Find R Classes = 33 ms], [Process Annotations = 14 ms], [Extract Manifest = 4 ms], [Validate Annotations = 4 ms], [Generate Sources = 3 ms], [Extract Annotations = 2 ms], 
+18:35:42.504 [Worker-144] INFO  o.a.AndroidAnnotationProcessor:121 - Finish processing
+18:38:32.708 [Worker-146] INFO  o.a.AndroidAnnotationProcessor:83 - Initialize AndroidAnnotations 3.3.2 with options {phase=BUILD}
+18:38:32.709 [Worker-146] INFO  o.a.AndroidAnnotationProcessor:107 - Start processing for 3 annotations on 1 elements
+18:38:32.711 [Worker-146] DEBUG o.a.h.AndroidManifestFinder:137 - AndroidManifest.xml file found in parent folder E:\month_workspace\MobilSafe\MobileSafe: E:\month_workspace\MobilSafe\MobileSafe\AndroidManifest.xml
+18:38:32.715 [Worker-146] INFO  o.a.AndroidAnnotationProcessor:170 - AndroidManifest.xml found: AndroidManifest [applicationPackage=com.phy.mobilesafe, componentQualifiedNames=[com.phy.mobilesafe.activity.SplashActivity_, com.phy.mobilesafe.activity.HomeActivity_, com.phy.mobilesafe.activity.SettingActivity_, com.phy.mobilesafe.activity.LostFindActivity_, com.phy.mobilesafe.activity.Setup1Activity_, com.phy.mobilesafe.activity.Setup2Activity_, com.phy.mobilesafe.activity.Setup3Activity_, com.phy.mobilesafe.activity.Setup4Activity_], permissionQualifiedNames=[android.permission.INTERNET, android.permission.WRITE_EXTERNAL_STORAGE], applicationClassName=null, libraryProject=false, debugabble=false, minSdkVersion=14, maxSdkVersion=-1, targetSdkVersion=17]
+18:38:32.716 [Worker-146] INFO  o.a.r.ProjectRClassFinder:50 - Found project R class: com.phy.mobilesafe.R
+18:38:32.720 [Worker-146] INFO  o.a.r.AndroidRClassFinder:44 - Found Android class: android.R
+18:38:32.750 [Worker-146] INFO  o.a.p.ModelValidator:42 - Validating elements
+18:38:32.751 [Worker-146] DEBUG o.a.p.ModelValidator:62 - Validating with EActivityHandler: [com.phy.mobilesafe.activity.Setup2Activity]
+18:38:32.751 [Worker-146] DEBUG o.a.p.ModelValidator:62 - Validating with ViewByIdHandler: [sivSim]
+18:38:32.753 [Worker-146] DEBUG o.a.p.ModelValidator:62 - Validating with AfterViewsHandler: [void saveSimCheck() ]
+18:38:32.754 [Worker-146] INFO  o.a.p.ModelProcessor:74 - Processing root elements
+18:38:32.754 [Worker-146] DEBUG o.a.p.ModelProcessor:176 - Processing root elements EActivityHandler: [com.phy.mobilesafe.activity.Setup2Activity]
+18:38:32.769 [Worker-146] INFO  o.a.p.ModelProcessor:86 - Processing enclosed elements
+18:38:32.770 [Worker-146] INFO  o.a.AndroidAnnotationProcessor:249 - Number of files generated by AndroidAnnotations: 1
+18:38:32.771 [Worker-146] INFO  o.a.g.ApiCodeGenerator:52 - Writting following API classes in project: []
+18:38:32.771 [Worker-146] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.phy.mobilesafe.activity.Setup2Activity_
+18:38:32.782 [Worker-146] INFO  o.a.p.TimeStats:81 - Time measurements: [Whole Processing = 73 ms], [Find R Classes = 34 ms], [Process Annotations = 17 ms], [Generate Sources = 12 ms], [Extract Manifest = 4 ms], [Validate Annotations = 3 ms], [Extract Annotations = 1 ms], 
+18:38:32.783 [Worker-146] INFO  o.a.AndroidAnnotationProcessor:121 - Finish processing
+18:38:46.529 [Worker-141] INFO  o.a.AndroidAnnotationProcessor:83 - Initialize AndroidAnnotations 3.3.2 with options {phase=BUILD}
+18:38:46.530 [Worker-141] INFO  o.a.AndroidAnnotationProcessor:107 - Start processing for 3 annotations on 1 elements
+18:38:46.532 [Worker-141] DEBUG o.a.h.AndroidManifestFinder:137 - AndroidManifest.xml file found in parent folder E:\month_workspace\MobilSafe\MobileSafe: E:\month_workspace\MobilSafe\MobileSafe\AndroidManifest.xml
+18:38:46.536 [Worker-141] INFO  o.a.AndroidAnnotationProcessor:170 - AndroidManifest.xml found: AndroidManifest [applicationPackage=com.phy.mobilesafe, componentQualifiedNames=[com.phy.mobilesafe.activity.SplashActivity_, com.phy.mobilesafe.activity.HomeActivity_, com.phy.mobilesafe.activity.SettingActivity_, com.phy.mobilesafe.activity.LostFindActivity_, com.phy.mobilesafe.activity.Setup1Activity_, com.phy.mobilesafe.activity.Setup2Activity_, com.phy.mobilesafe.activity.Setup3Activity_, com.phy.mobilesafe.activity.Setup4Activity_], permissionQualifiedNames=[android.permission.INTERNET, android.permission.WRITE_EXTERNAL_STORAGE], applicationClassName=null, libraryProject=false, debugabble=false, minSdkVersion=14, maxSdkVersion=-1, targetSdkVersion=17]
+18:38:46.537 [Worker-141] INFO  o.a.r.ProjectRClassFinder:50 - Found project R class: com.phy.mobilesafe.R
+18:38:46.540 [Worker-141] INFO  o.a.r.AndroidRClassFinder:44 - Found Android class: android.R
+18:38:46.571 [Worker-141] INFO  o.a.p.ModelValidator:42 - Validating elements
+18:38:46.571 [Worker-141] DEBUG o.a.p.ModelValidator:62 - Validating with EActivityHandler: [com.phy.mobilesafe.activity.Setup2Activity]
+18:38:46.572 [Worker-141] DEBUG o.a.p.ModelValidator:62 - Validating with ViewByIdHandler: [sivSim]
+18:38:46.573 [Worker-141] DEBUG o.a.p.ModelValidator:62 - Validating with AfterViewsHandler: [void saveSimCheck() ]
+18:38:46.574 [Worker-141] INFO  o.a.p.ModelProcessor:74 - Processing root elements
+18:38:46.575 [Worker-141] DEBUG o.a.p.ModelProcessor:176 - Processing root elements EActivityHandler: [com.phy.mobilesafe.activity.Setup2Activity]
+18:38:46.590 [Worker-141] INFO  o.a.p.ModelProcessor:86 - Processing enclosed elements
+18:38:46.591 [Worker-141] INFO  o.a.AndroidAnnotationProcessor:249 - Number of files generated by AndroidAnnotations: 1
+18:38:46.591 [Worker-141] INFO  o.a.g.ApiCodeGenerator:52 - Writting following API classes in project: []
+18:38:46.592 [Worker-141] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.phy.mobilesafe.activity.Setup2Activity_
+18:38:46.594 [Worker-141] INFO  o.a.p.TimeStats:81 - Time measurements: [Whole Processing = 64 ms], [Find R Classes = 33 ms], [Process Annotations = 17 ms], [Extract Manifest = 4 ms], [Validate Annotations = 3 ms], [Generate Sources = 3 ms], [Extract Annotations = 1 ms], 
+18:38:46.594 [Worker-141] INFO  o.a.AndroidAnnotationProcessor:121 - Finish processing
+18:53:49.558 [Worker-143] INFO  o.a.AndroidAnnotationProcessor:83 - Initialize AndroidAnnotations 3.3.2 with options {phase=BUILD}
+18:53:49.560 [Worker-143] INFO  o.a.AndroidAnnotationProcessor:107 - Start processing for 3 annotations on 1 elements
+18:53:49.562 [Worker-143] DEBUG o.a.h.AndroidManifestFinder:137 - AndroidManifest.xml file found in parent folder E:\month_workspace\MobilSafe\MobileSafe: E:\month_workspace\MobilSafe\MobileSafe\AndroidManifest.xml
+18:53:49.566 [Worker-143] INFO  o.a.AndroidAnnotationProcessor:170 - AndroidManifest.xml found: AndroidManifest [applicationPackage=com.phy.mobilesafe, componentQualifiedNames=[com.phy.mobilesafe.activity.SplashActivity_, com.phy.mobilesafe.activity.HomeActivity_, com.phy.mobilesafe.activity.SettingActivity_, com.phy.mobilesafe.activity.LostFindActivity_, com.phy.mobilesafe.activity.Setup1Activity_, com.phy.mobilesafe.activity.Setup2Activity_, com.phy.mobilesafe.activity.Setup3Activity_, com.phy.mobilesafe.activity.Setup4Activity_], permissionQualifiedNames=[android.permission.INTERNET, android.permission.WRITE_EXTERNAL_STORAGE], applicationClassName=null, libraryProject=false, debugabble=false, minSdkVersion=14, maxSdkVersion=-1, targetSdkVersion=17]
+18:53:49.566 [Worker-143] INFO  o.a.r.ProjectRClassFinder:50 - Found project R class: com.phy.mobilesafe.R
+18:53:49.570 [Worker-143] INFO  o.a.r.AndroidRClassFinder:44 - Found Android class: android.R
+18:53:49.601 [Worker-143] INFO  o.a.p.ModelValidator:42 - Validating elements
+18:53:49.602 [Worker-143] DEBUG o.a.p.ModelValidator:62 - Validating with EActivityHandler: [com.phy.mobilesafe.activity.Setup2Activity]
+18:53:49.603 [Worker-143] DEBUG o.a.p.ModelValidator:62 - Validating with ViewByIdHandler: [sivSim]
+18:53:49.605 [Worker-143] DEBUG o.a.p.ModelValidator:62 - Validating with AfterViewsHandler: [void saveSimCheck() ]
+18:53:49.606 [Worker-143] INFO  o.a.p.ModelProcessor:74 - Processing root elements
+18:53:49.606 [Worker-143] DEBUG o.a.p.ModelProcessor:176 - Processing root elements EActivityHandler: [com.phy.mobilesafe.activity.Setup2Activity]
+18:53:49.621 [Worker-143] INFO  o.a.p.ModelProcessor:86 - Processing enclosed elements
+18:53:49.622 [Worker-143] INFO  o.a.AndroidAnnotationProcessor:249 - Number of files generated by AndroidAnnotations: 1
+18:53:49.623 [Worker-143] INFO  o.a.g.ApiCodeGenerator:52 - Writting following API classes in project: []
+18:53:49.623 [Worker-143] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.phy.mobilesafe.activity.Setup2Activity_
+18:53:49.629 [Worker-143] INFO  o.a.p.TimeStats:81 - Time measurements: [Whole Processing = 69 ms], [Find R Classes = 35 ms], [Process Annotations = 16 ms], [Generate Sources = 7 ms], [Validate Annotations = 5 ms], [Extract Manifest = 4 ms], [Extract Annotations = 1 ms], 
+18:53:49.630 [Worker-143] INFO  o.a.AndroidAnnotationProcessor:121 - Finish processing
+18:55:12.999 [Worker-143] INFO  o.a.AndroidAnnotationProcessor:83 - Initialize AndroidAnnotations 3.3.2 with options {phase=BUILD}
+18:55:13.0 [Worker-143] INFO  o.a.AndroidAnnotationProcessor:107 - Start processing for 3 annotations on 1 elements
+18:55:13.2 [Worker-143] DEBUG o.a.h.AndroidManifestFinder:137 - AndroidManifest.xml file found in parent folder E:\month_workspace\MobilSafe\MobileSafe: E:\month_workspace\MobilSafe\MobileSafe\AndroidManifest.xml
+18:55:13.5 [Worker-143] INFO  o.a.AndroidAnnotationProcessor:170 - AndroidManifest.xml found: AndroidManifest [applicationPackage=com.phy.mobilesafe, componentQualifiedNames=[com.phy.mobilesafe.activity.SplashActivity_, com.phy.mobilesafe.activity.HomeActivity_, com.phy.mobilesafe.activity.SettingActivity_, com.phy.mobilesafe.activity.LostFindActivity_, com.phy.mobilesafe.activity.Setup1Activity_, com.phy.mobilesafe.activity.Setup2Activity_, com.phy.mobilesafe.activity.Setup3Activity_, com.phy.mobilesafe.activity.Setup4Activity_], permissionQualifiedNames=[android.permission.INTERNET, android.permission.WRITE_EXTERNAL_STORAGE], applicationClassName=null, libraryProject=false, debugabble=false, minSdkVersion=14, maxSdkVersion=-1, targetSdkVersion=17]
+18:55:13.5 [Worker-143] INFO  o.a.r.ProjectRClassFinder:50 - Found project R class: com.phy.mobilesafe.R
+18:55:13.8 [Worker-143] INFO  o.a.r.AndroidRClassFinder:44 - Found Android class: android.R
+18:55:13.36 [Worker-143] INFO  o.a.p.ModelValidator:42 - Validating elements
+18:55:13.37 [Worker-143] DEBUG o.a.p.ModelValidator:62 - Validating with EActivityHandler: [com.phy.mobilesafe.activity.Setup2Activity]
+18:55:13.37 [Worker-143] DEBUG o.a.p.ModelValidator:62 - Validating with ViewByIdHandler: [sivSim]
+18:55:13.39 [Worker-143] DEBUG o.a.p.ModelValidator:62 - Validating with AfterViewsHandler: [void saveSimCheck() ]
+18:55:13.40 [Worker-143] INFO  o.a.p.ModelProcessor:74 - Processing root elements
+18:55:13.40 [Worker-143] DEBUG o.a.p.ModelProcessor:176 - Processing root elements EActivityHandler: [com.phy.mobilesafe.activity.Setup2Activity]
+18:55:13.53 [Worker-143] INFO  o.a.p.ModelProcessor:86 - Processing enclosed elements
+18:55:13.54 [Worker-143] INFO  o.a.AndroidAnnotationProcessor:249 - Number of files generated by AndroidAnnotations: 1
+18:55:13.54 [Worker-143] INFO  o.a.g.ApiCodeGenerator:52 - Writting following API classes in project: []
+18:55:13.55 [Worker-143] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.phy.mobilesafe.activity.Setup2Activity_
+18:55:13.57 [Worker-143] INFO  o.a.p.TimeStats:81 - Time measurements: [Whole Processing = 57 ms], [Find R Classes = 31 ms], [Process Annotations = 15 ms], [Extract Manifest = 3 ms], [Validate Annotations = 3 ms], [Generate Sources = 3 ms], [Extract Annotations = 1 ms], 
+18:55:13.57 [Worker-143] INFO  o.a.AndroidAnnotationProcessor:121 - Finish processing
+18:56:04.304 [Worker-143] INFO  o.a.AndroidAnnotationProcessor:83 - Initialize AndroidAnnotations 3.3.2 with options {phase=BUILD}
+18:56:04.305 [Worker-143] INFO  o.a.AndroidAnnotationProcessor:107 - Start processing for 3 annotations on 1 elements
+18:56:04.307 [Worker-143] DEBUG o.a.h.AndroidManifestFinder:137 - AndroidManifest.xml file found in parent folder E:\month_workspace\MobilSafe\MobileSafe: E:\month_workspace\MobilSafe\MobileSafe\AndroidManifest.xml
+18:56:04.310 [Worker-143] INFO  o.a.AndroidAnnotationProcessor:170 - AndroidManifest.xml found: AndroidManifest [applicationPackage=com.phy.mobilesafe, componentQualifiedNames=[com.phy.mobilesafe.activity.SplashActivity_, com.phy.mobilesafe.activity.HomeActivity_, com.phy.mobilesafe.activity.SettingActivity_, com.phy.mobilesafe.activity.LostFindActivity_, com.phy.mobilesafe.activity.Setup1Activity_, com.phy.mobilesafe.activity.Setup2Activity_, com.phy.mobilesafe.activity.Setup3Activity_, com.phy.mobilesafe.activity.Setup4Activity_], permissionQualifiedNames=[android.permission.INTERNET, android.permission.WRITE_EXTERNAL_STORAGE], applicationClassName=null, libraryProject=false, debugabble=false, minSdkVersion=14, maxSdkVersion=-1, targetSdkVersion=17]
+18:56:04.311 [Worker-143] INFO  o.a.r.ProjectRClassFinder:50 - Found project R class: com.phy.mobilesafe.R
+18:56:04.315 [Worker-143] INFO  o.a.r.AndroidRClassFinder:44 - Found Android class: android.R
+18:56:04.343 [Worker-143] INFO  o.a.p.ModelValidator:42 - Validating elements
+18:56:04.344 [Worker-143] DEBUG o.a.p.ModelValidator:62 - Validating with EActivityHandler: [com.phy.mobilesafe.activity.Setup2Activity]
+18:56:04.344 [Worker-143] DEBUG o.a.p.ModelValidator:62 - Validating with ViewByIdHandler: [sivSim]
+18:56:04.346 [Worker-143] DEBUG o.a.p.ModelValidator:62 - Validating with AfterViewsHandler: [void saveSimCheck() ]
+18:56:04.347 [Worker-143] INFO  o.a.p.ModelProcessor:74 - Processing root elements
+18:56:04.347 [Worker-143] DEBUG o.a.p.ModelProcessor:176 - Processing root elements EActivityHandler: [com.phy.mobilesafe.activity.Setup2Activity]
+18:56:04.361 [Worker-143] INFO  o.a.p.ModelProcessor:86 - Processing enclosed elements
+18:56:04.362 [Worker-143] INFO  o.a.AndroidAnnotationProcessor:249 - Number of files generated by AndroidAnnotations: 1
+18:56:04.362 [Worker-143] INFO  o.a.g.ApiCodeGenerator:52 - Writting following API classes in project: []
+18:56:04.363 [Worker-143] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.phy.mobilesafe.activity.Setup2Activity_
+18:56:04.365 [Worker-143] INFO  o.a.p.TimeStats:81 - Time measurements: [Whole Processing = 60 ms], [Find R Classes = 32 ms], [Process Annotations = 15 ms], [Validate Annotations = 4 ms], [Extract Manifest = 3 ms], [Generate Sources = 3 ms], [Extract Annotations = 1 ms], 
+18:56:04.366 [Worker-143] INFO  o.a.AndroidAnnotationProcessor:121 - Finish processing
+18:56:07.972 [Worker-140] INFO  o.a.AndroidAnnotationProcessor:83 - Initialize AndroidAnnotations 3.3.2 with options {phase=BUILD}
+18:56:07.973 [Worker-140] INFO  o.a.AndroidAnnotationProcessor:107 - Start processing for 3 annotations on 1 elements
+18:56:07.976 [Worker-140] DEBUG o.a.h.AndroidManifestFinder:137 - AndroidManifest.xml file found in parent folder E:\month_workspace\MobilSafe\MobileSafe: E:\month_workspace\MobilSafe\MobileSafe\AndroidManifest.xml
+18:56:07.981 [Worker-140] INFO  o.a.AndroidAnnotationProcessor:170 - AndroidManifest.xml found: AndroidManifest [applicationPackage=com.phy.mobilesafe, componentQualifiedNames=[com.phy.mobilesafe.activity.SplashActivity_, com.phy.mobilesafe.activity.HomeActivity_, com.phy.mobilesafe.activity.SettingActivity_, com.phy.mobilesafe.activity.LostFindActivity_, com.phy.mobilesafe.activity.Setup1Activity_, com.phy.mobilesafe.activity.Setup2Activity_, com.phy.mobilesafe.activity.Setup3Activity_, com.phy.mobilesafe.activity.Setup4Activity_], permissionQualifiedNames=[android.permission.INTERNET, android.permission.WRITE_EXTERNAL_STORAGE], applicationClassName=null, libraryProject=false, debugabble=false, minSdkVersion=14, maxSdkVersion=-1, targetSdkVersion=17]
+18:56:07.982 [Worker-140] INFO  o.a.r.ProjectRClassFinder:50 - Found project R class: com.phy.mobilesafe.R
+18:56:07.989 [Worker-140] INFO  o.a.r.AndroidRClassFinder:44 - Found Android class: android.R
+18:56:08.16 [Worker-140] INFO  o.a.p.ModelValidator:42 - Validating elements
+18:56:08.17 [Worker-140] DEBUG o.a.p.ModelValidator:62 - Validating with EActivityHandler: [com.phy.mobilesafe.activity.Setup2Activity]
+18:56:08.17 [Worker-140] DEBUG o.a.p.ModelValidator:62 - Validating with ViewByIdHandler: [sivSim]
+18:56:08.19 [Worker-140] DEBUG o.a.p.ModelValidator:62 - Validating with AfterViewsHandler: [void saveSimCheck() ]
+18:56:08.20 [Worker-140] INFO  o.a.p.ModelProcessor:74 - Processing root elements
+18:56:08.20 [Worker-140] DEBUG o.a.p.ModelProcessor:176 - Processing root elements EActivityHandler: [com.phy.mobilesafe.activity.Setup2Activity]
+18:56:08.33 [Worker-140] INFO  o.a.p.ModelProcessor:86 - Processing enclosed elements
+18:56:08.33 [Worker-140] INFO  o.a.AndroidAnnotationProcessor:249 - Number of files generated by AndroidAnnotations: 1
+18:56:08.34 [Worker-140] INFO  o.a.g.ApiCodeGenerator:52 - Writting following API classes in project: []
+18:56:08.34 [Worker-140] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.phy.mobilesafe.activity.Setup2Activity_
+18:56:08.36 [Worker-140] INFO  o.a.p.TimeStats:81 - Time measurements: [Whole Processing = 63 ms], [Find R Classes = 34 ms], [Process Annotations = 13 ms], [Extract Manifest = 5 ms], [Validate Annotations = 4 ms], [Generate Sources = 3 ms], [Extract Annotations = 2 ms], 
+18:56:08.37 [Worker-140] INFO  o.a.AndroidAnnotationProcessor:121 - Finish processing
+18:58:38.930 [Worker-143] INFO  o.a.AndroidAnnotationProcessor:83 - Initialize AndroidAnnotations 3.3.2 with options {phase=BUILD}
+18:59:05.361 [Worker-140] INFO  o.a.AndroidAnnotationProcessor:83 - Initialize AndroidAnnotations 3.3.2 with options {phase=BUILD}
+18:59:14.437 [Worker-155] INFO  o.a.AndroidAnnotationProcessor:83 - Initialize AndroidAnnotations 3.3.2 with options {phase=BUILD}
+19:00:41.433 [Worker-140] INFO  o.a.AndroidAnnotationProcessor:83 - Initialize AndroidAnnotations 3.3.2 with options {phase=BUILD}
+19:01:19.169 [Worker-156] INFO  o.a.AndroidAnnotationProcessor:83 - Initialize AndroidAnnotations 3.3.2 with options {phase=BUILD}
+19:01:52.428 [Worker-154] INFO  o.a.AndroidAnnotationProcessor:83 - Initialize AndroidAnnotations 3.3.2 with options {phase=BUILD}
+19:02:25.7 [Worker-140] INFO  o.a.AndroidAnnotationProcessor:83 - Initialize AndroidAnnotations 3.3.2 with options {phase=BUILD}
+19:07:36.556 [Worker-154] INFO  o.a.AndroidAnnotationProcessor:83 - Initialize AndroidAnnotations 3.3.2 with options {phase=BUILD}
+19:09:10.210 [Worker-154] INFO  o.a.AndroidAnnotationProcessor:83 - Initialize AndroidAnnotations 3.3.2 with options {phase=BUILD}
+19:18:46.757 [Worker-157] INFO  o.a.AndroidAnnotationProcessor:83 - Initialize AndroidAnnotations 3.3.2 with options {phase=BUILD}
+19:18:46.759 [Worker-157] INFO  o.a.AndroidAnnotationProcessor:107 - Start processing for 4 annotations on 1 elements
+19:18:46.760 [Worker-157] DEBUG o.a.h.AndroidManifestFinder:137 - AndroidManifest.xml file found in parent folder E:\month_workspace\MobilSafe\MobileSafe: E:\month_workspace\MobilSafe\MobileSafe\AndroidManifest.xml
+19:18:46.764 [Worker-157] INFO  o.a.AndroidAnnotationProcessor:170 - AndroidManifest.xml found: AndroidManifest [applicationPackage=com.phy.mobilesafe, componentQualifiedNames=[com.phy.mobilesafe.activity.SplashActivity_, com.phy.mobilesafe.activity.HomeActivity_, com.phy.mobilesafe.activity.SettingActivity_, com.phy.mobilesafe.activity.LostFindActivity_, com.phy.mobilesafe.activity.Setup1Activity_, com.phy.mobilesafe.activity.Setup2Activity_, com.phy.mobilesafe.activity.Setup3Activity_, com.phy.mobilesafe.activity.Setup4Activity_, com.phy.mobilesafe.receiver.BootCompleteReceiver], permissionQualifiedNames=[android.permission.INTERNET, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.RECEIVE_BOOT_COMPLETED], applicationClassName=null, libraryProject=false, debugabble=false, minSdkVersion=14, maxSdkVersion=-1, targetSdkVersion=17]
+19:18:46.765 [Worker-157] INFO  o.a.r.ProjectRClassFinder:50 - Found project R class: com.phy.mobilesafe.R
+19:18:46.786 [Worker-157] INFO  o.a.r.AndroidRClassFinder:44 - Found Android class: android.R
+19:18:46.840 [Worker-157] INFO  o.a.p.ModelValidator:42 - Validating elements
+19:18:46.841 [Worker-157] DEBUG o.a.p.ModelValidator:62 - Validating with EActivityHandler: [com.phy.mobilesafe.activity.HomeActivity]
+19:18:46.842 [Worker-157] DEBUG o.a.p.ModelValidator:62 - Validating with ViewByIdHandler: [gvHome]
+19:18:46.847 [Worker-157] DEBUG o.a.p.ModelValidator:62 - Validating with ItemClickHandler: [public void gvHomeItemClicked(int) ]
+19:18:46.850 [Worker-157] DEBUG o.a.p.ModelValidator:62 - Validating with AfterViewsHandler: [void updateViewWithDate() ]
+19:18:46.852 [Worker-157] INFO  o.a.p.ModelProcessor:74 - Processing root elements
+19:18:46.853 [Worker-157] DEBUG o.a.p.ModelProcessor:176 - Processing root elements EActivityHandler: [com.phy.mobilesafe.activity.HomeActivity]
+19:18:46.923 [Worker-157] INFO  o.a.p.ModelProcessor:86 - Processing enclosed elements
+19:18:46.925 [Worker-157] INFO  o.a.AndroidAnnotationProcessor:249 - Number of files generated by AndroidAnnotations: 1
+19:18:46.925 [Worker-157] INFO  o.a.g.ApiCodeGenerator:52 - Writting following API classes in project: []
+19:18:46.926 [Worker-157] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.phy.mobilesafe.activity.HomeActivity_
+19:18:46.933 [Worker-157] INFO  o.a.p.TimeStats:81 - Time measurements: [Whole Processing = 174 ms], [Find R Classes = 74 ms], [Process Annotations = 73 ms], [Validate Annotations = 12 ms], [Generate Sources = 8 ms], [Extract Manifest = 4 ms], [Extract Annotations = 0 ms], 
+19:18:46.935 [Worker-157] INFO  o.a.AndroidAnnotationProcessor:121 - Finish processing
+19:18:53.802 [Worker-140] INFO  o.a.AndroidAnnotationProcessor:83 - Initialize AndroidAnnotations 3.3.2 with options {phase=BUILD}
+19:18:53.806 [Worker-140] INFO  o.a.AndroidAnnotationProcessor:107 - Start processing for 4 annotations on 2 elements
+19:18:53.808 [Worker-140] DEBUG o.a.h.AndroidManifestFinder:137 - AndroidManifest.xml file found in parent folder E:\month_workspace\MobilSafe\MobileSafe: E:\month_workspace\MobilSafe\MobileSafe\AndroidManifest.xml
+19:18:53.813 [Worker-140] INFO  o.a.AndroidAnnotationProcessor:170 - AndroidManifest.xml found: AndroidManifest [applicationPackage=com.phy.mobilesafe, componentQualifiedNames=[com.phy.mobilesafe.activity.SplashActivity_, com.phy.mobilesafe.activity.HomeActivity_, com.phy.mobilesafe.activity.SettingActivity_, com.phy.mobilesafe.activity.LostFindActivity_, com.phy.mobilesafe.activity.Setup1Activity_, com.phy.mobilesafe.activity.Setup2Activity_, com.phy.mobilesafe.activity.Setup3Activity_, com.phy.mobilesafe.activity.Setup4Activity_, com.phy.mobilesafe.receiver.BootCompleteReceiver], permissionQualifiedNames=[android.permission.INTERNET, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.RECEIVE_BOOT_COMPLETED], applicationClassName=null, libraryProject=false, debugabble=false, minSdkVersion=14, maxSdkVersion=-1, targetSdkVersion=17]
+19:18:53.815 [Worker-140] INFO  o.a.r.ProjectRClassFinder:50 - Found project R class: com.phy.mobilesafe.R
+19:18:53.818 [Worker-140] INFO  o.a.r.AndroidRClassFinder:44 - Found Android class: android.R
+19:18:53.863 [Worker-140] INFO  o.a.p.ModelValidator:42 - Validating elements
+19:18:53.865 [Worker-140] DEBUG o.a.p.ModelValidator:62 - Validating with EActivityHandler: [com.phy.mobilesafe.activity.HomeActivity]
+19:18:53.866 [Worker-140] DEBUG o.a.p.ModelValidator:62 - Validating with ViewByIdHandler: [gvHome]
+19:18:53.871 [Worker-140] DEBUG o.a.p.ModelValidator:62 - Validating with ItemClickHandler: [public void gvHomeItemClicked(int) ]
+19:18:53.872 [Worker-140] DEBUG o.a.p.ModelValidator:62 - Validating with AfterViewsHandler: [void updateViewWithDate() ]
+19:18:53.873 [Worker-140] INFO  o.a.p.ModelProcessor:74 - Processing root elements
+19:18:53.874 [Worker-140] DEBUG o.a.p.ModelProcessor:176 - Processing root elements EActivityHandler: [com.phy.mobilesafe.activity.HomeActivity]
+19:18:53.895 [Worker-140] INFO  o.a.p.ModelProcessor:86 - Processing enclosed elements
+19:18:53.897 [Worker-140] INFO  o.a.AndroidAnnotationProcessor:249 - Number of files generated by AndroidAnnotations: 1
+19:18:53.898 [Worker-140] INFO  o.a.g.ApiCodeGenerator:52 - Writting following API classes in project: []
+19:18:53.900 [Worker-140] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.phy.mobilesafe.activity.HomeActivity_
+19:18:53.904 [Worker-140] INFO  o.a.p.TimeStats:81 - Time measurements: [Whole Processing = 98 ms], [Find R Classes = 47 ms], [Process Annotations = 24 ms], [Validate Annotations = 10 ms], [Generate Sources = 7 ms], [Extract Manifest = 5 ms], [Extract Annotations = 1 ms], 
+19:18:53.905 [Worker-140] INFO  o.a.AndroidAnnotationProcessor:121 - Finish processing

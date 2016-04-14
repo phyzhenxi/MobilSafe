@@ -7,8 +7,12 @@
     <uses-sdk
         android:minSdkVersion="14"
         android:targetSdkVersion="17" />
+    <!-- 获取网络权限 -->
     <uses-permission android:name="android.permission.INTERNET"/>
+    <!-- 读写SD卡权限 -->
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <!-- 监听系统启动权限 -->
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
 
     <application
         android:allowBackup="true"
@@ -34,7 +38,7 @@
             android:label="@string/app_name">
         </activity>
          <activity 
-            android:name=".activity.LostFindActivity"
+            android:name=".activity.LostFindActivity_"
             android:label="@string/app_name">
         </activity>
         <activity 
@@ -53,6 +57,11 @@
             android:name=".activity.Setup4Activity_"
             android:label="@string/app_name">
         </activity>
+        <receiver android:name=".receiver.BootCompleteReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
     </application>
 
 </manifest>
