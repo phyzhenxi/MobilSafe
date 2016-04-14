@@ -77,14 +77,16 @@ containing a value of this type.
         public static final int home_tools=0x7f020013;
         public static final int home_trojan=0x7f020014;
         public static final int ic_launcher=0x7f020015;
-        public static final int lock=0x7f020016;
-        public static final int logo2=0x7f020017;
-        public static final int next=0x7f020018;
-        public static final int phone=0x7f020019;
-        public static final int previous=0x7f02001a;
-        public static final int setup1=0x7f02001b;
-        public static final int shape_selector=0x7f02001c;
-        public static final int unlock=0x7f02001d;
+        public static final int launcher_bg=0x7f020016;
+        public static final int listview_divider=0x7f020017;
+        public static final int lock=0x7f020018;
+        public static final int logo2=0x7f020019;
+        public static final int next=0x7f02001a;
+        public static final int phone=0x7f02001b;
+        public static final int previous=0x7f02001c;
+        public static final int setup1=0x7f02001d;
+        public static final int shape_selector=0x7f02001e;
+        public static final int unlock=0x7f02001f;
     }
     public static final class id {
         public static final int action_settings=0x7f0a0013;

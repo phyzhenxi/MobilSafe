@@ -8,7 +8,10 @@ import android.view.View;
 import android.widget.CheckBox;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
-
+/**
+ * 设置中心的自定义组合控件
+ * @author Administrator
+ */
 public class SettingItemView  extends RelativeLayout{
 	private static final String NAMESPACE = "http://schemas.android.com/apk/res/com.phy.mobilesafe";
 	private TextView tvTitle;

@@ -34,7 +34,23 @@
             android:label="@string/app_name">
         </activity>
          <activity 
-            android:name=".activity.LostFindActivity_"
+            android:name=".activity.LostFindActivity"
+            android:label="@string/app_name">
+        </activity>
+        <activity 
+            android:name=".activity.Setup1Activity_"
+            android:label="@string/app_name">
+        </activity>
+        <activity 
+            android:name=".activity.Setup2Activity_"
+            android:label="@string/app_name">
+        </activity>
+        <activity 
+            android:name=".activity.Setup3Activity_"
+            android:label="@string/app_name">
+        </activity>
+        <activity 
+            android:name=".activity.Setup4Activity_"
             android:label="@string/app_name">
         </activity>
     </application>

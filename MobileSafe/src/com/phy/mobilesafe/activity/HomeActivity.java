@@ -107,9 +107,8 @@ public class HomeActivity extends Activity {
 						// Toast.LENGTH_SHORT).show();
 						dialog.dismiss();
 						// 跳转到手机防盗页
-						startActivity(new Intent(HomeActivity.this,LostFindActivity_.class));
+						startActivity(new Intent(HomeActivity.this,LostFindActivity.class));
 					} else {
-						etPassword.setError("密码错误!");
 						Toast.makeText(HomeActivity.this, "密码错误!",
 								Toast.LENGTH_SHORT).show();
 					}
@@ -170,7 +169,7 @@ public class HomeActivity extends Activity {
 
 						// 跳转到手机防盗页
 						startActivity(new Intent(HomeActivity.this,
-								LostFindActivity_.class));
+								LostFindActivity.class));
 					} else {
 						Toast.makeText(HomeActivity.this, "两次密码不一致!",
 								Toast.LENGTH_SHORT).show();
