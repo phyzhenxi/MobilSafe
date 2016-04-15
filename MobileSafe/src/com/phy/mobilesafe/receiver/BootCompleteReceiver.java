@@ -1,5 +1,7 @@
 package com.phy.mobilesafe.receiver;
 
+import org.androidannotations.annotations.EReceiver;
+
 import com.lidroid.xutils.util.LogUtils;
 
 import android.content.BroadcastReceiver;
@@ -13,6 +15,7 @@ import android.text.TextUtils;
  * 监听手机开机启动的广播
  * @author phy
  */
+@EReceiver
 public class BootCompleteReceiver extends BroadcastReceiver {
 
 	@Override

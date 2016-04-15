@@ -5,6 +5,7 @@ import org.androidannotations.annotations.EActivity;
 import org.androidannotations.annotations.ViewById;
 
 import com.phy.mobilesafe.R;
+import com.phy.mobilesafe.activity.Setup1Activity_;
 
 import android.app.Activity;
 import android.content.Intent;

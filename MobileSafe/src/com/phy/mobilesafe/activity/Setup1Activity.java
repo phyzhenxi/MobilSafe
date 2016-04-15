@@ -3,6 +3,7 @@ package com.phy.mobilesafe.activity;
 import org.androidannotations.annotations.EActivity;
 
 import com.phy.mobilesafe.R;
+import com.phy.mobilesafe.activity.Setup2Activity_;
 
 import android.app.Activity;
 import android.content.Intent;

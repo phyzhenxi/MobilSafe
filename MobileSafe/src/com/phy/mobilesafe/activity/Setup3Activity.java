@@ -5,6 +5,9 @@ import org.androidannotations.annotations.EActivity;
 import org.androidannotations.annotations.ViewById;
 
 import com.phy.mobilesafe.R;
+import com.phy.mobilesafe.activity.ContactActivity_;
+import com.phy.mobilesafe.activity.Setup2Activity_;
+import com.phy.mobilesafe.activity.Setup4Activity_;
 import com.phy.mobilesafe.utils.ToastUtils;
 
 import android.app.Activity;

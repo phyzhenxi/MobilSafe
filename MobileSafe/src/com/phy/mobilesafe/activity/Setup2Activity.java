@@ -6,6 +6,8 @@ import org.androidannotations.annotations.ViewById;
 
 import com.lidroid.xutils.util.LogUtils;
 import com.phy.mobilesafe.R;
+import com.phy.mobilesafe.activity.Setup1Activity_;
+import com.phy.mobilesafe.activity.Setup3Activity_;
 import com.phy.mobilesafe.utils.ToastUtils;
 import com.phy.mobilesafe.view.SettingItemView;
 

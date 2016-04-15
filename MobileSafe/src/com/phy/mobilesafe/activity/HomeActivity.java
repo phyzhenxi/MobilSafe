@@ -6,6 +6,8 @@ import org.androidannotations.annotations.ItemClick;
 import org.androidannotations.annotations.ViewById;
 
 import com.phy.mobilesafe.R;
+import com.phy.mobilesafe.activity.LostFindActivity_;
+import com.phy.mobilesafe.activity.SettingActivity_;
 import com.phy.mobilesafe.utils.MD5Utils;
 
 import android.app.Activity;
