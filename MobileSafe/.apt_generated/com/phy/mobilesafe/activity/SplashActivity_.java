@@ -75,9 +75,9 @@ public final class SplashActivity_
 
     @Override
     public void onViewChanged(HasViews hasViews) {
-        rlRoot = ((RelativeLayout) hasViews.findViewById(id.rl_root));
-        tvProgress = ((TextView) hasViews.findViewById(id.tv_progress));
         tvVersion = ((TextView) hasViews.findViewById(id.text_Version));
+        tvProgress = ((TextView) hasViews.findViewById(id.tv_progress));
+        rlRoot = ((RelativeLayout) hasViews.findViewById(id.rl_root));
         ShowAndCheckVersion();
     }
 

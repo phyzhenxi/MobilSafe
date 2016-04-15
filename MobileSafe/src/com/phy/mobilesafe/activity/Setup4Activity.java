@@ -2,6 +2,7 @@ package com.phy.mobilesafe.activity;
 
 import org.androidannotations.annotations.AfterViews;
 import org.androidannotations.annotations.EActivity;
+import org.androidannotations.annotations.ViewById;
 
 import com.phy.mobilesafe.R;
 
@@ -9,6 +10,9 @@ import android.app.Activity;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.view.View;
+import android.widget.CheckBox;
+import android.widget.CompoundButton;
+import android.widget.CompoundButton.OnCheckedChangeListener;
 
 /**
  * 第四个引导页面
@@ -17,11 +21,33 @@ import android.view.View;
 @EActivity(R.layout.activity_setup4)
 public class Setup4Activity extends BaseSetupActivity {
 	
-	private SharedPreferences mPref;
+	@ViewById(R.id.cb_protect)
+	CheckBox cbProtect;
 	
 	@AfterViews
-	void ConfigSharedPre(){
-		mPref = getSharedPreferences("config", MODE_PRIVATE);
+	void CheckProAndSetPro(){
+		boolean protect = mPref.getBoolean("protect", false);
+		// 根据sp保存的状态,更新checkbox
+		if (protect) {
+			cbProtect.setText("防盗保护已经开启");
+			cbProtect.setChecked(true);
+		} else {
+			cbProtect.setText("防盗保护没有开启");
+			cbProtect.setChecked(false);
+		}
+		cbProtect.setOnCheckedChangeListener(new OnCheckedChangeListener() {
+			
+			@Override
+			public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+				if (isChecked) {
+					cbProtect.setText("防盗保护已经开启");
+					mPref.edit().putBoolean("protect", true).commit();
+				} else {
+					cbProtect.setText("防盗保护没有开启");
+					mPref.edit().putBoolean("protect", false).commit();
+				}
+			}
+		});
 	}
 	
 			//下一页
